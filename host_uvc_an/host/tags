@@ -1,0 +1,738 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/41fa40d/
+AC_table	src/libv4l2/inc/tinyjpeg-internal.h	/^  struct huffman_table *AC_table;$/;"	m	struct:component	typeref:struct:huffman_table *
+ALSA_BUFFER_SIZE_MAX	inc/alsa.h	/^#define ALSA_BUFFER_SIZE_MAX /;"	d
+APP0	src/libv4l2/src/tinyjpeg.c	/^   APP0 = 0xE0,$/;"	e	enum:std_markers	file:
+ARRAY_SIZE	src/libv4l2/inc/libv4lconvert-priv.h	/^#define ARRAY_SIZE(/;"	d
+ARRAY_SIZE	src/libv4l2/src/libv4lcontrol.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	src/libv4l2/src/log.c	/^#define ARRAY_SIZE(/;"	d	file:
+ASCII_COLOR_BLUE	inc/datatype.h	/^#define ASCII_COLOR_BLUE /;"	d
+ASCII_COLOR_END	inc/datatype.h	/^#define ASCII_COLOR_END /;"	d
+ASCII_COLOR_GREEN	inc/datatype.h	/^#define ASCII_COLOR_GREEN /;"	d
+ASCII_COLOR_RED	inc/datatype.h	/^#define ASCII_COLOR_RED /;"	d
+ASCII_COLOR_WHITE	inc/datatype.h	/^#define ASCII_COLOR_WHITE /;"	d
+ASCII_COLOR_YELLOW	inc/datatype.h	/^#define ASCII_COLOR_YELLOW /;"	d
+AlsaData	src/alsa.c	/^typedef struct AlsaData {$/;"	s	file:
+AlsaData	src/alsa.c	/^} AlsaData;$/;"	t	typeref:struct:AlsaData	file:
+BLACK_U	src/libv4l2/src/tinyjpeg.c	/^#define BLACK_U /;"	d	file:
+BLACK_V	src/libv4l2/src/tinyjpeg.c	/^#define BLACK_V /;"	d	file:
+BLACK_Y	src/libv4l2/src/tinyjpeg.c	/^#define BLACK_Y /;"	d	file:
+BufferRef	inc/common.h	/^typedef struct BufferRef {$/;"	s
+BufferRef	inc/common.h	/^} BufferRef;$/;"	t	typeref:struct:BufferRef
+CLAMP	src/libv4l2/src/sn9c10x.c	/^#define CLAMP(/;"	d	file:
+CLIP	src/libv4l2/src/gamma.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/hm12.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/mr97310a.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/pac207.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/rgbyuv.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/sq905c.c	/^#define CLIP(/;"	d	file:
+CLIP	src/libv4l2/src/whitebalance.c	/^#define CLIP(/;"	d	file:
+CLIP256	src/libv4l2/src/whitebalance.c	/^#define CLIP256(/;"	d	file:
+COMPONENTS	src/libv4l2/inc/tinyjpeg-internal.h	/^#define COMPONENTS	/;"	d
+CUS_UNKONW_CMD	inc/v4l2.h	/^#define CUS_UNKONW_CMD /;"	d
+CUS_XU_GET_ISP	inc/v4l2.h	/^#define CUS_XU_GET_ISP /;"	d
+CUS_XU_ISP_LEN	inc/v4l2.h	/^#define CUS_XU_ISP_LEN /;"	d
+CUS_XU_SET_ISP	inc/v4l2.h	/^#define CUS_XU_SET_ISP /;"	d
+Cb	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint8_t Y[64*4], Cr[64], Cb[64];$/;"	m	struct:jdec_private	typeref:typename:uint8_t[][64][64]
+Cr	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint8_t Y[64*4], Cr[64], Cb[64];$/;"	m	struct:jdec_private	typeref:typename:uint8_t[][64]
+DCT	src/libv4l2/inc/tinyjpeg-internal.h	/^  short int DCT[64];		\/* DCT coef *\/$/;"	m	struct:component	typeref:typename:short int[64]
+DCTSIZE	src/libv4l2/src/jidctflt.c	/^#define DCTSIZE	/;"	d	file:
+DCTSIZE2	src/libv4l2/src/jidctflt.c	/^#define DCTSIZE2 /;"	d	file:
+DC_table	src/libv4l2/inc/tinyjpeg-internal.h	/^  struct huffman_table *DC_table;$/;"	m	struct:component	typeref:struct:huffman_table *
+DEBUG	src/alsa.c	/^#define DEBUG$/;"	d	file:
+DEMO_DBG_ALL	inc/datatype.h	/^    DEMO_DBG_ALL$/;"	e	enum:__anone6062f600103
+DEMO_DBG_DEBUG	inc/datatype.h	/^    DEMO_DBG_DEBUG,$/;"	e	enum:__anone6062f600103
+DEMO_DBG_ERR	inc/datatype.h	/^    DEMO_DBG_ERR,$/;"	e	enum:__anone6062f600103
+DEMO_DBG_INFO	inc/datatype.h	/^    DEMO_DBG_INFO,$/;"	e	enum:__anone6062f600103
+DEMO_DBG_LEVEL_e	inc/datatype.h	/^} DEMO_DBG_LEVEL_e;$/;"	t	typeref:enum:__anone6062f600103
+DEMO_DBG_NONE	inc/datatype.h	/^    DEMO_DBG_NONE = 0,$/;"	e	enum:__anone6062f600103
+DEMO_DBG_WRN	inc/datatype.h	/^    DEMO_DBG_WRN,$/;"	e	enum:__anone6062f600103
+DEMO_DEBUG	inc/datatype.h	/^#define DEMO_DEBUG(/;"	d
+DEMO_ENTER	inc/datatype.h	/^#define DEMO_ENTER(/;"	d
+DEMO_ERR	inc/datatype.h	/^#define DEMO_ERR(/;"	d
+DEMO_EXIT_ERR	inc/datatype.h	/^#define DEMO_EXIT_ERR(/;"	d
+DEMO_EXIT_OK	inc/datatype.h	/^#define DEMO_EXIT_OK(/;"	d
+DEMO_INFO	inc/datatype.h	/^#define DEMO_INFO(/;"	d
+DEMO_SUPPORT_DEBUG	inc/datatype.h	/^#define DEMO_SUPPORT_DEBUG$/;"	d
+DEMO_WRN	inc/datatype.h	/^#define DEMO_WRN(/;"	d
+DEQUANTIZE	src/libv4l2/src/jidctflt.c	/^#define DEQUANTIZE(/;"	d	file:
+DHT	src/libv4l2/src/tinyjpeg.c	/^   DHT  = 0xC4, \/* Huffman Table *\/$/;"	e	enum:std_markers	file:
+DO_SANITY_CHECKS	src/libv4l2/src/sn9c20x.c	/^#define DO_SANITY_CHECKS /;"	d	file:
+DQT	src/libv4l2/src/tinyjpeg.c	/^   DQT  = 0xDB, \/* Define Quantization Table *\/$/;"	e	enum:std_markers	file:
+DRI	src/libv4l2/src/tinyjpeg.c	/^   DRI  = 0xDD, \/* Define Restart Interval *\/$/;"	e	enum:std_markers	file:
+DeviceContex_s	inc/datatype.h	/^typedef struct DeviceContex_s {$/;"	s
+DeviceContex_t	inc/datatype.h	/^} DeviceContex_t;$/;"	t	typeref:struct:DeviceContex_s
+EAT_BITS	src/libv4l2/src/sn9c2028-decomp.c	/^#define EAT_BITS(/;"	d	file:
+EOI	src/libv4l2/src/tinyjpeg.c	/^   EOI  = 0xD9, \/* End of Image *\/$/;"	e	enum:std_markers	file:
+FAST_FLOAT	src/libv4l2/src/jidctflt.c	/^#define FAST_FLOAT /;"	d	file:
+FIX	src/libv4l2/src/tinyjpeg.c	/^#define FIX(/;"	d	file:
+HTAC	src/libv4l2/inc/tinyjpeg-internal.h	/^  struct huffman_table HTAC[HUFFMAN_TABLES];	\/* AC huffman tables   *\/$/;"	m	struct:jdec_private	typeref:struct:huffman_table[]
+HTDC	src/libv4l2/inc/tinyjpeg-internal.h	/^  struct huffman_table HTDC[HUFFMAN_TABLES];	\/* DC huffman tables   *\/$/;"	m	struct:jdec_private	typeref:struct:huffman_table[]
+HUFFMAN_HASH_MASK	src/libv4l2/inc/tinyjpeg-internal.h	/^#define HUFFMAN_HASH_MASK /;"	d
+HUFFMAN_HASH_NBITS	src/libv4l2/inc/tinyjpeg-internal.h	/^#define HUFFMAN_HASH_NBITS /;"	d
+HUFFMAN_HASH_SIZE	src/libv4l2/inc/tinyjpeg-internal.h	/^#define HUFFMAN_HASH_SIZE /;"	d
+HUFFMAN_TABLES	src/libv4l2/inc/tinyjpeg-internal.h	/^#define HUFFMAN_TABLES	/;"	d
+Hfactor	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int Hfactor;$/;"	m	struct:component	typeref:typename:unsigned int
+IDCT	src/libv4l2/inc/tinyjpeg-internal.h	/^#define IDCT /;"	d
+JPEG_MAX_HEIGHT	src/libv4l2/inc/tinyjpeg-internal.h	/^#define JPEG_MAX_HEIGHT	/;"	d
+JPEG_MAX_WIDTH	src/libv4l2/inc/tinyjpeg-internal.h	/^#define JPEG_MAX_WIDTH	/;"	d
+LIBV4L_PUBLIC	src/libv4l2/src/v4l2convert.c	/^#define LIBV4L_PUBLIC /;"	d	file:
+LIBV4L_PUBLIC	src/libv4l2/src/v4l2convert.c	/^#define LIBV4L_PUBLIC$/;"	d	file:
+MAP_ANONYMOUS	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	MAP_ANONYMOUS /;"	d
+MAX	inc/datatype.h	/^#define MAX(/;"	d
+MIN	inc/datatype.h	/^#define MIN(/;"	d
+MIN	src/libv4l2/inc/libv4l2-priv.h	/^#define MIN(/;"	d
+MIN	src/libv4l2/src/libv4lconvert.c	/^#define MIN(/;"	d	file:
+MMAP2_PAGE_SHIFT	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	MMAP2_PAGE_SHIFT /;"	d
+ONE_HALF	src/libv4l2/src/tinyjpeg.c	/^#define ONE_HALF /;"	d	file:
+PARSE_PIXEL	src/libv4l2/src/sn9c2028-decomp.c	/^#define PARSE_PIXEL(/;"	d	file:
+PEEK_BITS	src/libv4l2/src/sn9c2028-decomp.c	/^#define PEEK_BITS(/;"	d	file:
+PUT_PIXEL_PAIR	src/libv4l2/src/sn9c2028-decomp.c	/^#define PUT_PIXEL_PAIR /;"	d	file:
+Packet	inc/common.h	/^typedef struct Packet {$/;"	s
+Packet	inc/common.h	/^} Packet;$/;"	t	typeref:struct:Packet
+Q_table	src/libv4l2/inc/tinyjpeg-internal.h	/^  float *Q_table;		\/* Pointer to the quantisation table to use *\/$/;"	m	struct:component	typeref:typename:float *
+Q_tables	src/libv4l2/inc/tinyjpeg-internal.h	/^  float Q_tables[COMPONENTS][64];		\/* quantization tables *\/$/;"	m	struct:jdec_private	typeref:typename:float[][64]
+READ_END	src/libv4l2/src/helper.c	/^#define READ_END /;"	d	file:
+REQUEST_IFRAME	inc/v4l2.h	/^#define REQUEST_IFRAME /;"	d
+RGB2UV	src/libv4l2/src/rgbyuv.c	/^#define RGB2UV(/;"	d	file:
+RGB2Y	src/libv4l2/src/rgbyuv.c	/^#define RGB2Y(/;"	d	file:
+RST	src/libv4l2/src/tinyjpeg.c	/^   RST  = 0xD0, \/* Reset Marker d0 -> .. *\/$/;"	e	enum:std_markers	file:
+RST7	src/libv4l2/src/tinyjpeg.c	/^   RST7 = 0xD7, \/* Reset Marker .. -> d7 *\/$/;"	e	enum:std_markers	file:
+SANITY_CHECK	src/libv4l2/inc/tinyjpeg-internal.h	/^#define SANITY_CHECK /;"	d
+SCALEBITS	src/libv4l2/src/tinyjpeg.c	/^#define SCALEBITS /;"	d	file:
+SET_WRAPPERS	src/v4l2.c	/^#define SET_WRAPPERS(/;"	d	file:
+SOF	src/libv4l2/src/tinyjpeg.c	/^   SOF  = 0xC0, \/* Start of Frame (size information) *\/$/;"	e	enum:std_markers	file:
+SOI	src/libv4l2/src/tinyjpeg.c	/^   SOI  = 0xD8, \/* Start of Image *\/$/;"	e	enum:std_markers	file:
+SOS	src/libv4l2/src/tinyjpeg.c	/^   SOS  = 0xDA, \/* Start of Scan *\/$/;"	e	enum:std_markers	file:
+SUPPORTED_DST_PIXFMTS	src/libv4l2/src/libv4lconvert.c	/^#define SUPPORTED_DST_PIXFMTS /;"	d	file:
+SYS_CLOSE	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_CLOSE(/;"	d
+SYS_IOCTL	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_IOCTL(/;"	d
+SYS_MMAP	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_MMAP(/;"	d
+SYS_MUNMAP	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_MUNMAP(/;"	d
+SYS_OPEN	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_OPEN(/;"	d
+SYS_READ	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_READ(/;"	d
+SYS_WRITE	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define SYS_WRITE(/;"	d
+SYS_mmap2	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	SYS_mmap2 /;"	d
+TINYJPEG_FLAGS_MJPEG_TABLE	src/libv4l2/inc/tinyjpeg.h	/^#define TINYJPEG_FLAGS_MJPEG_TABLE	/;"	d
+TINYJPEG_FLAGS_PIXART_JPEG	src/libv4l2/inc/tinyjpeg.h	/^#define TINYJPEG_FLAGS_PIXART_JPEG	/;"	d
+TINYJPEG_FMT_BGR24	src/libv4l2/inc/tinyjpeg.h	/^   TINYJPEG_FMT_BGR24,$/;"	e	enum:tinyjpeg_fmt
+TINYJPEG_FMT_GREY	src/libv4l2/inc/tinyjpeg.h	/^   TINYJPEG_FMT_GREY = 1,$/;"	e	enum:tinyjpeg_fmt
+TINYJPEG_FMT_RGB24	src/libv4l2/inc/tinyjpeg.h	/^   TINYJPEG_FMT_RGB24,$/;"	e	enum:tinyjpeg_fmt
+TINYJPEG_FMT_YUV420P	src/libv4l2/inc/tinyjpeg.h	/^   TINYJPEG_FMT_YUV420P,$/;"	e	enum:tinyjpeg_fmt
+UUID_LE_AIT	inc/v4l2.h	/^#define UUID_LE_AIT(/;"	d
+UVC_AIT_EU1_GUID	inc/v4l2.h	/^#define UVC_AIT_EU1_GUID /;"	d
+UVC_CUS_EU2_GUID	inc/v4l2.h	/^#define UVC_CUS_EU2_GUID /;"	d
+UVC_VC_EXTENSION2_UNIT_ID	inc/v4l2.h	/^#define UVC_VC_EXTENSION2_UNIT_ID /;"	d
+UVTranslate	src/libv4l2/src/sn9c20x.c	/^static const int UVTranslate[32] = {0, 1, 2, 3,$/;"	v	typeref:typename:const int[32]	file:
+V4L2PROCESSING_UPDATE_RATE	src/libv4l2/inc/libv4lprocessing-priv.h	/^#define V4L2PROCESSING_UPDATE_RATE /;"	d
+V4L2_BUFFERS_REQUESTED_BY_READ	src/libv4l2/src/libv4l2.c	/^#define V4L2_BUFFERS_REQUESTED_BY_READ	/;"	d	file:
+V4L2_DEFAULT_NREADBUFFERS	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_DEFAULT_NREADBUFFERS /;"	d
+V4L2_FMT_FLAG_EMULATED	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_FMT_FLAG_EMULATED /;"	d
+V4L2_FRAME_BUF_SIZE	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_FRAME_BUF_SIZE /;"	d
+V4L2_IN_ST_HFLIP	src/libv4l2/src/libv4lcontrol.c	/^#define V4L2_IN_ST_HFLIP /;"	d	file:
+V4L2_IN_ST_VFLIP	src/libv4l2/src/libv4lcontrol.c	/^#define V4L2_IN_ST_VFLIP /;"	d	file:
+V4L2_IS_UVC	src/libv4l2/src/libv4l2.c	/^#define V4L2_IS_UVC	/;"	d	file:
+V4L2_LOG	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_LOG(/;"	d
+V4L2_LOG_ERR	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_LOG_ERR(/;"	d
+V4L2_LOG_WARN	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_LOG_WARN(/;"	d
+V4L2_MAX_DEVICES	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_MAX_DEVICES /;"	d
+V4L2_MAX_NO_FRAMES	src/libv4l2/inc/libv4l2-priv.h	/^#define V4L2_MAX_NO_FRAMES /;"	d
+V4L2_MMAP_OFFSET_MAGIC	src/libv4l2/src/libv4l2.c	/^#define V4L2_MMAP_OFFSET_MAGIC /;"	d	file:
+V4L2_PIX_FMT_H265	inc/datatype.h	/^#define V4L2_PIX_FMT_H265 /;"	d
+V4L2_PIX_FMT_HM12	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_HM12 /;"	d
+V4L2_PIX_FMT_MR97310A	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_MR97310A /;"	d
+V4L2_PIX_FMT_OV511	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_OV511 /;"	d
+V4L2_PIX_FMT_OV518	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_OV518 /;"	d
+V4L2_PIX_FMT_PAC207	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_PAC207 /;"	d
+V4L2_PIX_FMT_PJPG	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_PJPG /;"	d
+V4L2_PIX_FMT_SGBRG8	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SGBRG8 /;"	d
+V4L2_PIX_FMT_SGRBG8	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SGRBG8 /;"	d
+V4L2_PIX_FMT_SN9C2028	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SN9C2028 /;"	d
+V4L2_PIX_FMT_SN9C20X_I420	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SN9C20X_I420 /;"	d
+V4L2_PIX_FMT_SPCA501	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SPCA501 /;"	d
+V4L2_PIX_FMT_SPCA505	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SPCA505 /;"	d
+V4L2_PIX_FMT_SPCA508	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SPCA508 /;"	d
+V4L2_PIX_FMT_SPCA561	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SPCA561 /;"	d
+V4L2_PIX_FMT_SQ905C	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SQ905C /;"	d
+V4L2_PIX_FMT_SRGGB8	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_SRGGB8 /;"	d
+V4L2_PIX_FMT_YVYU	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4L2_PIX_FMT_YVYU /;"	d
+V4L2_STREAMON	src/libv4l2/src/libv4l2.c	/^#define V4L2_STREAMON	/;"	d	file:
+V4L2_STREAM_CONTROLLED_BY_READ	src/libv4l2/src/libv4l2.c	/^#define V4L2_STREAM_CONTROLLED_BY_READ	/;"	d	file:
+V4L2_STREAM_TOUCHED	src/libv4l2/src/libv4l2.c	/^#define V4L2_STREAM_TOUCHED	/;"	d	file:
+V4L2_SUPPORTS_READ	src/libv4l2/src/libv4l2.c	/^#define V4L2_SUPPORTS_READ	/;"	d	file:
+V4L2_USE_READ_FOR_READ	src/libv4l2/src/libv4l2.c	/^#define V4L2_USE_READ_FOR_READ	/;"	d	file:
+V4LCONTROL_AUTOGAIN	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_AUTOGAIN,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_AUTOGAIN_TARGET	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_AUTOGAIN_TARGET,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_AUTO_ENABLE_COUNT	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_AUTO_ENABLE_COUNT,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_COUNT	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_COUNT$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_GAMMA	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_GAMMA,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_HFLIP	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_HFLIP,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_HFLIPPED	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_HFLIPPED /;"	d
+V4LCONTROL_MEMORY_IS_MALLOCED	src/libv4l2/inc/libv4lcontrol-priv.h	/^#define V4LCONTROL_MEMORY_IS_MALLOCED /;"	d
+V4LCONTROL_ROTATED_90_JPEG	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_ROTATED_90_JPEG /;"	d
+V4LCONTROL_SHM_SIZE	src/libv4l2/inc/libv4lcontrol-priv.h	/^#define V4LCONTROL_SHM_SIZE /;"	d
+V4LCONTROL_SUPPORTS_NEXT_CTRL	src/libv4l2/inc/libv4lcontrol-priv.h	/^#define V4LCONTROL_SUPPORTS_NEXT_CTRL /;"	d
+V4LCONTROL_VFLIP	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_VFLIP,$/;"	e	enum:__anonc488c3c70103
+V4LCONTROL_VFLIPPED	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_VFLIPPED /;"	d
+V4LCONTROL_WANTS_AUTOGAIN	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_WANTS_AUTOGAIN /;"	d
+V4LCONTROL_WANTS_WB	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_WANTS_WB /;"	d
+V4LCONTROL_WANTS_WB_AUTOGAIN	src/libv4l2/inc/control/libv4lcontrol.h	/^#define V4LCONTROL_WANTS_WB_AUTOGAIN /;"	d
+V4LCONTROL_WHITEBALANCE	src/libv4l2/inc/control/libv4lcontrol.h	/^  V4LCONTROL_WHITEBALANCE,$/;"	e	enum:__anonc488c3c70103
+V4LCONVERT_COMPRESSED	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_COMPRESSED /;"	d
+V4LCONVERT_COMPRESSED_AND_NEEDS_CONVERSION	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_COMPRESSED_AND_NEEDS_CONVERSION /;"	d
+V4LCONVERT_ERR	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_ERR(/;"	d
+V4LCONVERT_ERROR_MSG_SIZE	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_ERROR_MSG_SIZE /;"	d
+V4LCONVERT_IS_SN9C20X	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_IS_SN9C20X /;"	d
+V4LCONVERT_IS_UVC	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_IS_UVC /;"	d
+V4LCONVERT_MAX_FRAMESIZES	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_MAX_FRAMESIZES /;"	d
+V4LCONVERT_NEEDS_CONVERSION	src/libv4l2/inc/libv4lconvert-priv.h	/^#define V4LCONVERT_NEEDS_CONVERSION /;"	d
+V4L_ALLFORMATS	src/v4l2.c	/^#define V4L_ALLFORMATS /;"	d	file:
+V4L_COMPFORMATS	src/v4l2.c	/^#define V4L_COMPFORMATS /;"	d	file:
+V4L_RAWFORMATS	src/v4l2.c	/^#define V4L_RAWFORMATS /;"	d	file:
+Vfactor	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int Vfactor;$/;"	m	struct:component	typeref:typename:unsigned int
+VideoRational	src/v4l2.c	/^typedef struct VideoRational {$/;"	s	file:
+VideoRational	src/v4l2.c	/^} VideoRational;$/;"	t	typeref:struct:VideoRational	file:
+WRITE_END	src/libv4l2/src/helper.c	/^#define WRITE_END /;"	d	file:
+Y	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint8_t Y[64*4], Cr[64], Cb[64];$/;"	m	struct:jdec_private	typeref:typename:uint8_t[]
+YCrCB_to_BGR24_1x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_BGR24_1x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_BGR24_1x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_BGR24_1x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_BGR24_2x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_BGR24_2x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_BGR24_2x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_BGR24_2x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_Grey_1x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_Grey_1x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_Grey_1x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_Grey_1x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_Grey_2x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_Grey_2x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_Grey_2x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_Grey_2x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_RGB24_1x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_RGB24_1x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_RGB24_1x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_RGB24_1x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_RGB24_2x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_RGB24_2x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_RGB24_2x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_RGB24_2x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_YUV420P_1x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_YUV420P_1x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_YUV420P_1x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_YUV420P_1x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_YUV420P_2x1	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_YUV420P_2x1(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YCrCB_to_YUV420P_2x2	src/libv4l2/src/tinyjpeg.c	/^static void YCrCB_to_YUV420P_2x2(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+YUV2B	src/libv4l2/src/rgbyuv.c	/^#define YUV2B(/;"	d	file:
+YUV2G	src/libv4l2/src/rgbyuv.c	/^#define YUV2G(/;"	d	file:
+YUV2R	src/libv4l2/src/rgbyuv.c	/^#define YUV2R(/;"	d	file:
+Y_coords_624x	src/libv4l2/src/sn9c20x.c	/^static const int Y_coords_624x[128][2] = {$/;"	v	typeref:typename:const int[128][2]	file:
+_ALSA_H	inc/alsa.h	/^#define _ALSA_H$/;"	d
+_COMMON_H_	inc/common.h	/^#define _COMMON_H_$/;"	d
+_DATATYPE_H_	inc/datatype.h	/^#define _DATATYPE_H_$/;"	d
+_IOC_NR	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	_IOC_NR(/;"	d
+_IOC_SIZE	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	_IOC_SIZE(/;"	d
+_IOC_TYPE	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define	_IOC_TYPE(/;"	d
+_LARGEFILE64_SOURCE	src/libv4l2/src/v4l2convert.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LIBV4LSYSCALL_PRIV_H_	src/libv4l2/inc/libv4lsyscall-priv.h	/^#define _LIBV4LSYSCALL_PRIV_H_$/;"	d
+__JPEGDEC_H__	src/libv4l2/inc/tinyjpeg.h	/^#define __JPEGDEC_H__$/;"	d
+__LIBV4L2_PRIV_H	src/libv4l2/inc/libv4l2-priv.h	/^#define __LIBV4L2_PRIV_H$/;"	d
+__LIBV4LCONTROL_H	src/libv4l2/inc/control/libv4lcontrol.h	/^#define __LIBV4LCONTROL_H$/;"	d
+__LIBV4LCONTROL_PRIV_H	src/libv4l2/inc/libv4lcontrol-priv.h	/^#define __LIBV4LCONTROL_PRIV_H$/;"	d
+__LIBV4LCONVERT_PRIV_H	src/libv4l2/inc/libv4lconvert-priv.h	/^#define __LIBV4LCONVERT_PRIV_H$/;"	d
+__LIBV4LPROCESSING_H	src/libv4l2/inc/processing/libv4lprocessing.h	/^#define __LIBV4LPROCESSING_H$/;"	d
+__LIBV4LPROCESSING_PRIV_H	src/libv4l2/inc/libv4lprocessing-priv.h	/^#define __LIBV4LPROCESSING_PRIV_H$/;"	d
+__TINYJPEG_INTERNAL_H_	src/libv4l2/inc/tinyjpeg-internal.h	/^#define __TINYJPEG_INTERNAL_H_$/;"	d
+__V4L2_H_	inc/v4l2.h	/^#define __V4L2_H_$/;"	d
+__anon749618960108	src/libv4l2/src/mr97310a.c	/^static struct {$/;"	s	file:
+__anon76b6d6df0108	src/libv4l2/src/pac207.c	/^static struct {$/;"	s	file:
+__anon7bad1a880108	src/libv4l2/src/sn9c10x.c	/^typedef struct {$/;"	s	file:
+__anonc488c3c70103	src/libv4l2/inc/control/libv4lcontrol.h	/^enum {$/;"	g
+__anone6062f600103	inc/datatype.h	/^{$/;"	g
+__off_t	src/libv4l2/inc/libv4lsyscall-priv.h	/^typedef off_t __off_t;$/;"	t	typeref:typename:off_t
+_nbits	src/libv4l2/src/spca561-decompress.c	/^static inline int _nbits(int *bitfill, int n)$/;"	f	typeref:typename:int	file:
+active	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int (*active)(struct v4lprocessing_data *data);$/;"	m	struct:v4lprocessing_filter	typeref:typename:int (*)(struct v4lprocessing_data * data)
+alsa_dev_deinit	src/alsa.c	/^void alsa_dev_deinit(DeviceContex_t *ctx)$/;"	f	typeref:typename:void
+alsa_dev_init	src/alsa.c	/^int alsa_dev_init(DeviceContex_t **ctx)$/;"	f	typeref:typename:int
+alsa_test	src/alsa.c	/^int alsa_test()$/;"	f	typeref:typename:int
+assert	src/alsa.c	/^#define assert(/;"	d	file:
+assert	src/main.c	/^#define assert(/;"	d	file:
+audio_read_header	src/alsa.c	/^static int audio_read_header(DeviceContex_t *ctx)$/;"	f	typeref:typename:int	file:
+audio_read_packet	src/alsa.c	/^static int audio_read_packet(DeviceContex_t *ctx, Packet *pkt)$/;"	f	typeref:typename:int	file:
+audio_set_fmt	src/alsa.c	/^void audio_set_fmt(DeviceContex_t *ctx, snd_pcm_stream_t mode,$/;"	f	typeref:typename:void
+autogain_active	src/libv4l2/src/autogain.c	/^static int autogain_active(struct v4lprocessing_data *data) {$/;"	f	typeref:typename:int	file:
+autogain_calculate_lookup_tables	src/libv4l2/src/autogain.c	/^static int autogain_calculate_lookup_tables($/;"	f	typeref:typename:int	file:
+autogain_filter	src/libv4l2/src/autogain.c	/^struct v4lprocessing_filter autogain_filter = {$/;"	v	typeref:struct:v4lprocessing_filter
+bayer_to_rgbbgr24	src/libv4l2/src/bayer.c	/^static void bayer_to_rgbbgr24(const unsigned char *bayer,$/;"	f	typeref:typename:void	file:
+be16_to_cpu	src/libv4l2/src/tinyjpeg.c	/^#define be16_to_cpu(/;"	d	file:
+bit_bucket	src/libv4l2/src/spca561-decompress.c	/^static unsigned int bit_bucket;$/;"	v	typeref:typename:unsigned int	file:
+bits_ac_chrominance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char bits_ac_chrominance[17] =$/;"	v	typeref:typename:const unsigned char[17]	file:
+bits_ac_luminance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char bits_ac_luminance[17] =$/;"	v	typeref:typename:const unsigned char[17]	file:
+bits_dc_chrominance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char bits_dc_chrominance[17] =$/;"	v	typeref:typename:const unsigned char[17]	file:
+bits_dc_luminance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char bits_dc_luminance[17] =$/;"	v	typeref:typename:const unsigned char[17]	file:
+buf	inc/common.h	/^    BufferRef *buf;$/;"	m	struct:Packet	typeref:typename:BufferRef *
+buf_len	src/v4l2.c	/^    unsigned int *buf_len;$/;"	m	struct:video_data	typeref:typename:unsigned int *	file:
+buf_start	src/v4l2.c	/^    void **buf_start;$/;"	m	struct:video_data	typeref:typename:void **	file:
+buffers	src/v4l2.c	/^    int buffers;$/;"	m	struct:video_data	typeref:typename:int	file:
+buffers_queued	src/v4l2.c	/^    atomic_int buffers_queued;$/;"	m	struct:video_data	typeref:typename:atomic_int	file:
+build_default_huffman_tables	src/libv4l2/src/tinyjpeg.c	/^static int build_default_huffman_tables(struct jdec_private *priv)$/;"	f	typeref:typename:int	file:
+build_huffman_table	src/libv4l2/src/tinyjpeg.c	/^static int build_huffman_table(struct jdec_private *priv, const unsigned char *bits, const unsig/;"	f	typeref:typename:int	file:
+build_quantization_table	src/libv4l2/src/tinyjpeg.c	/^static void build_quantization_table(float *qtable, const unsigned char *ref_table)$/;"	f	typeref:typename:void	file:
+cCb	src/libv4l2/src/tinyjpeg.c	/^#define cCb	/;"	d	file:
+cCr	src/libv4l2/src/tinyjpeg.c	/^#define cCr	/;"	d	file:
+cY	src/libv4l2/src/tinyjpeg.c	/^#define cY	/;"	d	file:
+calculate_lookup_tables	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int (*calculate_lookup_tables)(struct v4lprocessing_data *data,$/;"	m	struct:v4lprocessing_filter	typeref:typename:int (*)(struct v4lprocessing_data * data,unsigned char * buf,const struct v4l2_format * fmt)
+channel	src/v4l2.c	/^    int channel;$/;"	m	struct:video_data	typeref:typename:int	file:
+channels	src/alsa.c	/^    unsigned int channels;    \/\/\/< number of channels set by user$/;"	m	struct:AlsaData	typeref:typename:unsigned int	file:
+cid	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int cid;$/;"	m	struct:component	typeref:typename:unsigned int
+clamp	src/libv4l2/src/tinyjpeg.c	/^static unsigned char clamp(int i)$/;"	f	typeref:typename:unsigned char	file:
+close	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int close(int fd)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+close_f	src/v4l2.c	/^    int (*close_f)(int fd);$/;"	m	struct:video_data	typeref:typename:int (*)(int fd)	file:
+code_size	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned char code_size[HUFFMAN_HASH_SIZE];$/;"	m	struct:huffman_table	typeref:typename:unsigned char[]
+code_table_t	src/libv4l2/src/sn9c10x.c	/^} code_table_t;$/;"	t	typeref:struct:__anon7bad1a880108	file:
+comp1	src/libv4l2/inc/libv4lprocessing-priv.h	/^  unsigned char comp1[256];$/;"	m	struct:v4lprocessing_data	typeref:typename:unsigned char[256]
+comp1_avg	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int comp1_avg;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+comp2	src/libv4l2/inc/libv4lprocessing-priv.h	/^  unsigned char comp2[256];$/;"	m	struct:v4lprocessing_data	typeref:typename:unsigned char[256]
+comp2_avg	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int comp2_avg;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+component	src/libv4l2/inc/tinyjpeg-internal.h	/^struct component$/;"	s
+component_infos	src/libv4l2/inc/tinyjpeg-internal.h	/^  struct component component_infos[COMPONENTS];$/;"	m	struct:jdec_private	typeref:struct:component[]
+components	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint8_t *components[COMPONENTS];$/;"	m	struct:jdec_private	typeref:typename:uint8_t * []
+control	src/libv4l2/inc/libv4lconvert-priv.h	/^  struct v4lcontrol_data *control;$/;"	m	struct:v4lconvert_data	typeref:struct:v4lcontrol_data *
+control	src/libv4l2/inc/libv4lprocessing-priv.h	/^  struct v4lcontrol_data *control;$/;"	m	struct:v4lprocessing_data	typeref:struct:v4lcontrol_data *
+control_flags	src/libv4l2/inc/libv4lconvert-priv.h	/^  int control_flags; \/* bitfield *\/$/;"	m	struct:v4lconvert_data	typeref:typename:int
+controls	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int controls;             \/* Which controls to use for this device *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:int
+controls_changed	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int controls_changed;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+convert	src/libv4l2/inc/libv4l2-priv.h	/^  struct v4lconvert_data *convert;$/;"	m	struct:v4l2_dev_info	typeref:struct:v4lconvert_data *
+convert1_buf	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned char *convert1_buf;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned char *
+convert1_buf_size	src/libv4l2/inc/libv4lconvert-priv.h	/^  int convert1_buf_size;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+convert2_buf	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned char *convert2_buf;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned char *
+convert2_buf_size	src/libv4l2/inc/libv4lconvert-priv.h	/^  int convert2_buf_size;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+convert_colorspace_bgr24	src/libv4l2/src/tinyjpeg.c	/^static const convert_colorspace_fct convert_colorspace_bgr24[4] = {$/;"	v	typeref:typename:const convert_colorspace_fct[4]	file:
+convert_colorspace_fct	src/libv4l2/inc/tinyjpeg-internal.h	/^typedef void (*convert_colorspace_fct) (struct jdec_private *priv);$/;"	t	typeref:typename:void (*)(struct jdec_private * priv)
+convert_colorspace_grey	src/libv4l2/src/tinyjpeg.c	/^static const convert_colorspace_fct convert_colorspace_grey[4] = {$/;"	v	typeref:typename:const convert_colorspace_fct[4]	file:
+convert_colorspace_rgb24	src/libv4l2/src/tinyjpeg.c	/^static const convert_colorspace_fct convert_colorspace_rgb24[4] = {$/;"	v	typeref:typename:const convert_colorspace_fct[4]	file:
+convert_colorspace_yuv420p	src/libv4l2/src/tinyjpeg.c	/^static const convert_colorspace_fct convert_colorspace_yuv420p[4] = {$/;"	v	typeref:typename:const convert_colorspace_fct[4]	file:
+convert_mmap_buf	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned char *convert_mmap_buf;$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned char *
+convert_pixfmt_buf	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned char *convert_pixfmt_buf;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned char *
+convert_pixfmt_buf_size	src/libv4l2/inc/libv4lconvert-priv.h	/^  int convert_pixfmt_buf_size;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+data	inc/common.h	/^    uint8_t *data;$/;"	m	struct:BufferRef	typeref:typename:uint8_t *
+data	inc/common.h	/^    uint8_t *data;$/;"	m	struct:Packet	typeref:typename:uint8_t *
+de_macro_uv	src/libv4l2/src/hm12.c	/^static void de_macro_uv(unsigned char *dstu, unsigned char *dstv,$/;"	f	typeref:typename:void	file:
+de_macro_y	src/libv4l2/src/hm12.c	/^static void de_macro_y(unsigned char *dst, const unsigned char *src,$/;"	f	typeref:typename:void	file:
+decode_MCU_1x1_1plane	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_1x1_1plane(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_1x1_3planes	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_1x1_3planes(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_1x2_1plane	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_1x2_1plane(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_1x2_3planes	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_1x2_3planes(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_2x1_1plane	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_2x1_1plane(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_2x1_3planes	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_2x1_3planes(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_2x2_1plane	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_2x2_1plane(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_2x2_3planes	src/libv4l2/src/tinyjpeg.c	/^static void decode_MCU_2x2_3planes(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+decode_MCU_fct	src/libv4l2/inc/tinyjpeg-internal.h	/^typedef void (*decode_MCU_fct) (struct jdec_private *priv);$/;"	t	typeref:typename:void (*)(struct jdec_private * priv)
+decode_mcu_1comp_table	src/libv4l2/src/tinyjpeg.c	/^static const decode_MCU_fct decode_mcu_1comp_table[4] = {$/;"	v	typeref:typename:const decode_MCU_fct[4]	file:
+decode_mcu_3comp_table	src/libv4l2/src/tinyjpeg.c	/^static const decode_MCU_fct decode_mcu_3comp_table[4] = {$/;"	v	typeref:typename:const decode_MCU_fct[4]	file:
+decoder_initialized	src/libv4l2/src/mr97310a.c	/^static int decoder_initialized = 0;$/;"	v	typeref:typename:int	file:
+decoder_initialized	src/libv4l2/src/pac207.c	/^static int decoder_initialized = 0;$/;"	v	typeref:typename:int	file:
+decompress_in_pipe	src/libv4l2/inc/libv4lconvert-priv.h	/^  int decompress_in_pipe[2];  \/* Data from helper to us *\/$/;"	m	struct:v4lconvert_data	typeref:typename:int[2]
+decompress_out_pipe	src/libv4l2/inc/libv4lconvert-priv.h	/^  int decompress_out_pipe[2]; \/* Data from us to helper *\/$/;"	m	struct:v4lconvert_data	typeref:typename:int[2]
+decompress_pid	src/libv4l2/inc/libv4lconvert-priv.h	/^  pid_t decompress_pid;$/;"	m	struct:v4lconvert_data	typeref:typename:pid_t
+default_gamma	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int default_gamma;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:int
+default_huffman_table_initialized	src/libv4l2/inc/tinyjpeg-internal.h	/^  int default_huffman_table_initialized;$/;"	m	struct:jdec_private	typeref:typename:int
+demo_debug_level	src/v4l2.c	/^DEMO_DBG_LEVEL_e demo_debug_level = DEMO_DBG_ERR;$/;"	v	typeref:typename:DEMO_DBG_LEVEL_e
+demo_func_trace	src/v4l2.c	/^bool demo_func_trace = true;$/;"	v	typeref:typename:bool
+den	src/v4l2.c	/^    int den; \/\/\/< Denominator$/;"	m	struct:VideoRational	typeref:typename:int	file:
+descale_and_clamp	src/libv4l2/src/jidctflt.c	/^static inline unsigned char descale_and_clamp(int x, int shift)$/;"	f	typeref:typename:unsigned char	file:
+desired_video_buffers	src/v4l2.c	/^static const int desired_video_buffers = 4;$/;"	v	typeref:typename:const int	file:
+dest_fmt	src/libv4l2/inc/libv4l2-priv.h	/^  struct v4l2_format dest_fmt;$/;"	m	struct:v4l2_dev_info	typeref:struct:v4l2_format
+device_init	src/v4l2.c	/^static int device_init(DeviceContex_t *ctx, int *width, int *height,$/;"	f	typeref:typename:int	file:
+device_open	src/v4l2.c	/^static int device_open(DeviceContex_t *ctx, const char* device_path)$/;"	f	typeref:typename:int	file:
+device_try_init	src/v4l2.c	/^static int device_try_init(DeviceContex_t *ctx,$/;"	f	typeref:typename:int	file:
+devices	src/libv4l2/src/libv4l2.c	/^static struct v4l2_dev_info devices[V4L2_MAX_DEVICES] = { { .fd = -1 },$/;"	v	typeref:struct:v4l2_dev_info[]	file:
+devices_used	src/libv4l2/src/libv4l2.c	/^static int devices_used = 0;$/;"	v	typeref:typename:int	file:
+dmi_board_name	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_board_name;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+dmi_board_vendor	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_board_vendor;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+dmi_board_version	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_board_version;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+dmi_system_name	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_system_name;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+dmi_system_vendor	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_system_vendor;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+dmi_system_version	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const char *dmi_system_version;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:const char *
+do_process	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int do_process;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+do_write_u	src/libv4l2/src/sn9c20x.c	/^static void do_write_u(const unsigned char *buf, unsigned char *ptr,$/;"	f	typeref:typename:void	file:
+do_write_v	src/libv4l2/src/sn9c20x.c	/^static void do_write_v(const unsigned char *buf, unsigned char *ptr,$/;"	f	typeref:typename:void	file:
+dup	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int dup(int fd)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+dup_f	src/v4l2.c	/^    int (*dup_f)(int fd);$/;"	m	struct:video_data	typeref:typename:int (*)(int fd)	file:
+enqueue_buffer	src/v4l2.c	/^static int enqueue_buffer(struct video_data *s, struct v4l2_buffer *buf)$/;"	f	typeref:typename:int	file:
+error	src/libv4l2/src/tinyjpeg.c	/^#define error(/;"	d	file:
+error_msg	src/libv4l2/inc/libv4lconvert-priv.h	/^  char error_msg[V4LCONVERT_ERROR_MSG_SIZE];$/;"	m	struct:v4lconvert_data	typeref:typename:char[]
+error_string	src/libv4l2/inc/tinyjpeg-internal.h	/^  char error_string[256];$/;"	m	struct:jdec_private	typeref:typename:char[256]
+fake_controls	src/libv4l2/src/libv4lcontrol.c	/^static const struct v4l2_queryctrl fake_controls[V4LCONTROL_COUNT] = {$/;"	v	typeref:typename:const struct v4l2_queryctrl[]	file:
+fake_controls	src/libv4l2/src/libv4lcontrol.c	/^static const struct v4l2_queryctrl fake_controls[];$/;"	v	typeref:typename:const struct v4l2_queryctrl[]	file:
+fd	src/libv4l2/inc/libv4l2-priv.h	/^  int fd;$/;"	m	struct:v4l2_dev_info	typeref:typename:int
+fd	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int fd;                   \/* Device fd *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:int
+fd	src/libv4l2/inc/libv4lconvert-priv.h	/^  int fd;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+fd	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int fd;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+fd	src/v4l2.c	/^    int fd;$/;"	m	struct:video_data	typeref:typename:int	file:
+ff_alsa_close	src/alsa.c	/^int ff_alsa_close(DeviceContex_t *ctx)$/;"	f	typeref:typename:int
+ff_alsa_open	src/alsa.c	/^int ff_alsa_open(DeviceContex_t *ctx, snd_pcm_stream_t mode,$/;"	f	typeref:typename:int
+ff_alsa_xrun_recover	src/alsa.c	/^int ff_alsa_xrun_recover(DeviceContex_t *ctx, int err)$/;"	f	typeref:typename:int
+ff_reorder_func	inc/alsa.h	/^typedef void (*ff_reorder_func)(const void *, void *, int);$/;"	t	typeref:typename:void (*)(const void *,void *,int)
+fill_nbits	src/libv4l2/src/tinyjpeg.c	/^#define fill_nbits(/;"	d	file:
+filters	src/libv4l2/src/libv4lprocessing.c	/^static struct v4lprocessing_filter *filters[] = {$/;"	v	typeref:struct:v4lprocessing_filter * []	file:
+find_next_rst_marker	src/libv4l2/src/tinyjpeg.c	/^static int find_next_rst_marker(struct jdec_private *priv)$/;"	f	typeref:typename:int	file:
+flags	src/libv4l2/inc/libv4l2-priv.h	/^  int flags;$/;"	m	struct:v4l2_dev_info	typeref:typename:int
+flags	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int flags;                \/* Flags for this device *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:int
+flags	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int flags;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:int
+flags	src/libv4l2/inc/libv4lconvert-priv.h	/^  int flags; \/* bitfield *\/$/;"	m	struct:v4lconvert_data	typeref:typename:int
+flags	src/libv4l2/inc/libv4lconvert-priv.h	/^  int flags;$/;"	m	struct:v4lconvert_pixfmt	typeref:typename:int
+flags	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int flags;$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+flags_info	src/libv4l2/inc/libv4lcontrol-priv.h	/^  const struct v4lcontrol_flags_info *flags_info;$/;"	m	struct:v4lcontrol_data	typeref:typename:const struct v4lcontrol_flags_info *
+flip_buf	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned char *flip_buf;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned char *
+flip_buf_size	src/libv4l2/inc/libv4lconvert-priv.h	/^  int flip_buf_size;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+fmt	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned int fmt;$/;"	m	struct:v4lconvert_pixfmt	typeref:typename:unsigned int
+format_fcc_to_str	src/v4l2.c	/^static char* format_fcc_to_str(uint fcc)$/;"	f	typeref:typename:char *	file:
+format_id	src/alsa.c	/^    snd_pcm_format_t format_id;$/;"	m	struct:AlsaData	typeref:typename:snd_pcm_format_t	file:
+format_is_support	src/v4l2.c	/^static bool format_is_support(int *fmt, int *width, int *height)$/;"	f	typeref:typename:bool	file:
+frame_map_count	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned char frame_map_count[V4L2_MAX_NO_FRAMES];$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned char[]
+frame_pointers	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned char *frame_pointers[V4L2_MAX_NO_FRAMES];$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned char * []
+frame_queued	src/libv4l2/inc/libv4l2-priv.h	/^  int frame_queued; \/* 1 status bit per frame *\/$/;"	m	struct:v4l2_dev_info	typeref:typename:int
+frame_size	src/alsa.c	/^    unsigned int frame_size;  \/\/\/< bytes per sample * channels$/;"	m	struct:AlsaData	typeref:typename:unsigned int	file:
+frame_size	src/v4l2.c	/^    int frame_size;$/;"	m	struct:video_data	typeref:typename:int	file:
+frame_sizes	src/libv4l2/inc/libv4l2-priv.h	/^  int frame_sizes[V4L2_MAX_NO_FRAMES];$/;"	m	struct:v4l2_dev_info	typeref:typename:int[]
+framerate	src/v4l2.c	/^    char *framerate;    \/**< Set by a private option. *\/$/;"	m	struct:video_data	typeref:typename:char *	file:
+framesizes	src/libv4l2/inc/libv4lconvert-priv.h	/^  struct v4l2_frmsizeenum framesizes[V4LCONVERT_MAX_FRAMESIZES];$/;"	m	struct:v4lconvert_data	typeref:struct:v4l2_frmsizeenum[]
+free_packet	src/common.c	/^void free_packet(Packet *pkt)$/;"	f	typeref:typename:void
+fun_A	src/libv4l2/src/spca561-decompress.c	/^static int fun_A(int *bitfill)$/;"	f	typeref:typename:int	file:
+fun_B	src/libv4l2/src/spca561-decompress.c	/^static int fun_B(int *bitfill)$/;"	f	typeref:typename:int	file:
+fun_C	src/libv4l2/src/spca561-decompress.c	/^static int fun_C(int *bitfill, int gkw)$/;"	f	typeref:typename:int	file:
+fun_D	src/libv4l2/src/spca561-decompress.c	/^static int fun_D(int *bitfill, int gkw)$/;"	f	typeref:typename:int	file:
+fun_E	src/libv4l2/src/spca561-decompress.c	/^static int fun_E(int cur_byte, int *bitfill)$/;"	f	typeref:typename:int	file:
+fun_F	src/libv4l2/src/spca561-decompress.c	/^static int fun_F(int cur_byte, int *bitfill)$/;"	f	typeref:typename:int	file:
+gamma_active	src/libv4l2/src/gamma.c	/^static int gamma_active(struct v4lprocessing_data *data) {$/;"	f	typeref:typename:int	file:
+gamma_calculate_lookup_tables	src/libv4l2/src/gamma.c	/^static int gamma_calculate_lookup_tables($/;"	f	typeref:typename:int	file:
+gamma_filter	src/libv4l2/src/gamma.c	/^struct v4lprocessing_filter gamma_filter = {$/;"	v	typeref:struct:v4lprocessing_filter
+gamma_table	src/libv4l2/inc/libv4lprocessing-priv.h	/^  unsigned char gamma_table[256];$/;"	m	struct:v4lprocessing_data	typeref:typename:unsigned char[256]
+getByte	src/libv4l2/src/pac207.c	/^static inline unsigned char getByte(const unsigned char *inp,$/;"	f	typeref:typename:unsigned char	file:
+getShort	src/libv4l2/src/pac207.c	/^static inline unsigned short getShort(const unsigned char *pt)$/;"	f	typeref:typename:unsigned short	file:
+get_bits_per_sample	src/alsa.c	/^static int get_bits_per_sample(snd_pcm_format_t format_id)$/;"	f	typeref:typename:int	file:
+get_byte	src/libv4l2/src/mr97310a.c	/^static inline unsigned char get_byte(const unsigned char *inp,$/;"	f	typeref:typename:unsigned char	file:
+get_nbits	src/libv4l2/src/tinyjpeg.c	/^#define get_nbits(/;"	d	file:
+get_next_huffman_code	src/libv4l2/src/tinyjpeg.c	/^static int get_next_huffman_code(struct jdec_private *priv, struct huffman_table *huffman_table)$/;"	f	typeref:typename:int	file:
+gettime	src/common.c	/^int64_t gettime(void)$/;"	f	typeref:typename:int64_t
+green	src/libv4l2/inc/libv4lprocessing-priv.h	/^  unsigned char green[256];$/;"	m	struct:v4lprocessing_data	typeref:typename:unsigned char[256]
+green_avg	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int green_avg;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+h	src/alsa.c	/^    snd_pcm_t *h;$/;"	m	struct:AlsaData	typeref:typename:snd_pcm_t *	file:
+height	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int width, height;	\/* Size of the image *\/$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+height	src/v4l2.c	/^    int width, height;$/;"	m	struct:video_data	typeref:typename:int	file:
+huffman_table	src/libv4l2/inc/tinyjpeg-internal.h	/^struct huffman_table$/;"	s
+image_check_size	src/v4l2.c	/^static int image_check_size(unsigned int w, unsigned int h, void *log_ctx)$/;"	f	typeref:typename:int	file:
+image_get_buffer_size	src/v4l2.c	/^static unsigned int image_get_buffer_size(int fmt, int width, int height, int align)$/;"	f	typeref:typename:unsigned int	file:
+init_done	src/libv4l2/src/sn9c10x.c	/^static int init_done = 0;$/;"	v	typeref:typename:int	file:
+init_mr97310a_decoder	src/libv4l2/src/mr97310a.c	/^static void init_mr97310a_decoder(void)$/;"	f	typeref:typename:void	file:
+init_pixart_decoder	src/libv4l2/src/pac207.c	/^static void init_pixart_decoder(void)$/;"	f	typeref:typename:void	file:
+inited	inc/datatype.h	/^    bool inited;$/;"	m	struct:DeviceContex_s	typeref:typename:bool
+input_ptr	src/libv4l2/src/spca561-decompress.c	/^static const unsigned char *input_ptr;$/;"	v	typeref:typename:const unsigned char *	file:
+interlaced	src/v4l2.c	/^    int interlaced;$/;"	m	struct:video_data	typeref:typename:int	file:
+internal_spca561_decode	src/libv4l2/src/spca561-decompress.c	/^static int internal_spca561_decode(int width, int height,$/;"	f	typeref:typename:int	file:
+ioctl	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int ioctl (int fd, unsigned long int request, ...)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+ioctl_f	src/v4l2.c	/^    int (*ioctl_f)(int fd, unsigned long int request, ...);$/;"	m	struct:video_data	typeref:typename:int (*)(int fd,unsigned long int request,...)	file:
+is_abs	src/libv4l2/src/mr97310a.c	/^	unsigned char is_abs;$/;"	m	struct:__anon749618960108	typeref:typename:unsigned char	file:
+is_abs	src/libv4l2/src/pac207.c	/^	unsigned char is_abs;$/;"	m	struct:__anon76b6d6df0108	typeref:typename:unsigned char	file:
+is_abs	src/libv4l2/src/sn9c10x.c	/^	int is_abs;$/;"	m	struct:__anon7bad1a880108	typeref:typename:int	file:
+jdec	src/libv4l2/inc/libv4lconvert-priv.h	/^  struct jdec_private *jdec;$/;"	m	struct:v4lconvert_data	typeref:struct:jdec_private *
+jdec_private	src/libv4l2/inc/tinyjpeg-internal.h	/^struct jdec_private$/;"	s
+jump_state	src/libv4l2/inc/tinyjpeg-internal.h	/^  jmp_buf jump_state;$/;"	m	struct:jdec_private	typeref:typename:jmp_buf
+last_gamma	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int last_gamma;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+last_period	src/alsa.c	/^    int last_period;$/;"	m	struct:AlsaData	typeref:typename:int	file:
+last_rst_marker_seen	src/libv4l2/inc/tinyjpeg-internal.h	/^  int last_rst_marker_seen;			\/* Rst marker is incremented each time *\/$/;"	m	struct:jdec_private	typeref:typename:int
+len	src/libv4l2/src/mr97310a.c	/^	unsigned char len;$/;"	m	struct:__anon749618960108	typeref:typename:unsigned char	file:
+len	src/libv4l2/src/pac207.c	/^	unsigned char len;$/;"	m	struct:__anon76b6d6df0108	typeref:typename:unsigned char	file:
+len	src/libv4l2/src/sn9c10x.c	/^	int len;$/;"	m	struct:__anon7bad1a880108	typeref:typename:int	file:
+list_format	src/v4l2.c	/^    int list_format;    \/**< Set by a private option. *\/$/;"	m	struct:video_data	typeref:typename:int	file:
+list_formats	src/v4l2.c	/^static void list_formats(DeviceContex_t *ctx, int type)$/;"	f	typeref:typename:void	file:
+list_standard	src/v4l2.c	/^    int list_standard;  \/**< Set by a private option. *\/$/;"	m	struct:video_data	typeref:typename:int	file:
+list_standards	src/v4l2.c	/^static void list_standards(DeviceContex_t *ctx)$/;"	f	typeref:typename:void	file:
+look_nbits	src/libv4l2/src/tinyjpeg.c	/^#define look_nbits(/;"	d	file:
+lookup	src/libv4l2/inc/tinyjpeg-internal.h	/^  short int lookup[HUFFMAN_HASH_SIZE];$/;"	m	struct:huffman_table	typeref:typename:short int[]
+lookup_table_active	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int lookup_table_active;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+lookup_table_update_counter	src/libv4l2/inc/libv4lprocessing-priv.h	/^  int lookup_table_update_counter;$/;"	m	struct:v4lprocessing_data	typeref:typename:int
+main	src/main.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+mmap	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC void *mmap(void *start, size_t length, int prot, int flags, int fd,$/;"	f	typeref:typename:LIBV4L_PUBLIC void *
+mmap64	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC void *mmap64(void *start, size_t length, int prot, int flags, int fd,$/;"	f	typeref:typename:LIBV4L_PUBLIC void *
+mmap_close	src/v4l2.c	/^static void mmap_close(struct video_data *s)$/;"	f	typeref:typename:void	file:
+mmap_f	src/v4l2.c	/^    void *(*mmap_f)(void *start, size_t length, int prot, int flags, int fd, int64_t offset);$/;"	m	struct:video_data	typeref:typename:void * (*)(void * start,size_t length,int prot,int flags,int fd,int64_t offset)	file:
+mmap_init	src/v4l2.c	/^static int mmap_init(DeviceContex_t *ctx)$/;"	f	typeref:typename:int	file:
+mmap_read_frame	src/v4l2.c	/^static int mmap_read_frame(DeviceContex_t *ctx, Packet *pkt)$/;"	f	typeref:typename:int	file:
+mmap_start	src/v4l2.c	/^static int mmap_start(DeviceContex_t *ctx)$/;"	f	typeref:typename:int	file:
+mode	src/alsa.c	/^    snd_pcm_stream_t mode;$/;"	m	struct:AlsaData	typeref:typename:snd_pcm_stream_t	file:
+munmap	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int munmap(void *start, size_t length)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+munmap_f	src/v4l2.c	/^    int (*munmap_f)(void *_start, size_t length);$/;"	m	struct:video_data	typeref:typename:int (*)(void * _start,size_t length)	file:
+nbits	src/libv4l2/src/spca561-decompress.c	/^static inline int nbits(int *bitfill, int n)$/;"	f	typeref:typename:int	file:
+nbits_in_reservoir	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int reservoir, nbits_in_reservoir;$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+new_packet	src/common.c	/^int new_packet(Packet *pkt, int size)$/;"	f	typeref:typename:int
+no_formats	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned int no_formats;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned int
+no_frames	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned int no_frames;$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned int
+no_framesizes	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned int no_framesizes;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned int
+nreadbuffers	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned int nreadbuffers;$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned int
+num	src/v4l2.c	/^    int num; \/\/\/< Numerator$/;"	m	struct:VideoRational	typeref:typename:int	file:
+old_values	src/libv4l2/inc/libv4lcontrol-priv.h	/^  unsigned int old_values[V4LCONTROL_COUNT]; \/* for controls_changed() *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:unsigned int[]
+open	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int open (const char *file, int oflag, ...)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+open64	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC int open64(const char *file, int oflag, ...)$/;"	f	typeref:typename:LIBV4L_PUBLIC int
+open_count	src/libv4l2/inc/libv4l2-priv.h	/^  int open_count;$/;"	m	struct:v4l2_dev_info	typeref:typename:int
+open_f	src/v4l2.c	/^    int (*open_f)(const char *file, int oflag, ...);$/;"	m	struct:video_data	typeref:typename:int (*)(const char * file,int oflag,...)	file:
+pac_decompress_row	src/libv4l2/src/pac207.c	/^pac_decompress_row(const unsigned char *inp, unsigned char *outp, int width,$/;"	f	typeref:typename:int	file:
+parse_DHT	src/libv4l2/src/tinyjpeg.c	/^static int parse_DHT(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_DQT	src/libv4l2/src/tinyjpeg.c	/^static int parse_DQT(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_DRI	src/libv4l2/src/tinyjpeg.c	/^static int parse_DRI(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_JFIF	src/libv4l2/src/tinyjpeg.c	/^static int parse_JFIF(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_SOF	src/libv4l2/src/tinyjpeg.c	/^static int parse_SOF(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_SOS	src/libv4l2/src/tinyjpeg.c	/^static int parse_SOS(struct jdec_private *priv, const unsigned char *stream)$/;"	f	typeref:typename:int	file:
+parse_video_rate	src/v4l2.c	/^static int parse_video_rate(VideoRational *r,  char *f)$/;"	f	typeref:typename:int	file:
+pcm_format_is_support	src/alsa.c	/^static bool pcm_format_is_support(snd_pcm_format_t format_id)$/;"	f	typeref:typename:bool	file:
+period_size	src/alsa.c	/^    unsigned int period_size; \/\/\/< preferred size for reads and writes, in frames$/;"	m	struct:AlsaData	typeref:typename:unsigned int	file:
+pixart_decode_MCU_2x1_3planes	src/libv4l2/src/tinyjpeg.c	/^static void pixart_decode_MCU_2x1_3planes(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+pixart_decode_mcu_3comp_table	src/libv4l2/src/tinyjpeg.c	/^static const decode_MCU_fct pixart_decode_mcu_3comp_table[4] = {$/;"	v	typeref:typename:const decode_MCU_fct[4]	file:
+pixart_fill_nbits	src/libv4l2/src/tinyjpeg.c	/^#define pixart_fill_nbits(/;"	d	file:
+pixart_get_nbits	src/libv4l2/src/tinyjpeg.c	/^#define pixart_get_nbits(/;"	d	file:
+pixart_get_next_huffman_code	src/libv4l2/src/tinyjpeg.c	/^static int pixart_get_next_huffman_code(struct jdec_private *priv,$/;"	f	typeref:typename:int	file:
+pixart_look_nbits	src/libv4l2/src/tinyjpeg.c	/^#define pixart_look_nbits(/;"	d	file:
+pixart_process_Huffman_data_unit	src/libv4l2/src/tinyjpeg.c	/^static void pixart_process_Huffman_data_unit(struct jdec_private *priv, int component)$/;"	f	typeref:typename:void	file:
+pixart_quantization	src/libv4l2/src/tinyjpeg.c	/^const unsigned char pixart_quantization[][64] = {$/;"	v	typeref:typename:const unsigned char[][64]
+pixelformat	src/v4l2.c	/^    int pixelformat; \/* V4L2_PIX_FMT_* *\/$/;"	m	struct:video_data	typeref:typename:int	file:
+plane	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint8_t *plane[COMPONENTS];$/;"	m	struct:jdec_private	typeref:typename:uint8_t * []
+previous_DC	src/libv4l2/inc/tinyjpeg-internal.h	/^  short int previous_DC;	\/* Previous DC coefficient *\/$/;"	m	struct:component	typeref:typename:short int
+print_SOF	src/libv4l2/src/tinyjpeg.c	/^static void print_SOF(const unsigned char *stream)$/;"	f	typeref:typename:void	file:
+print_alsaData	src/alsa.c	/^void print_alsaData(AlsaData *s)$/;"	f	typeref:typename:void
+priv_data	inc/datatype.h	/^    void *priv_data;$/;"	m	struct:DeviceContex_s	typeref:typename:void *
+priv_flags	src/libv4l2/inc/libv4lcontrol-priv.h	/^  int priv_flags;           \/* Internal use only flags *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:int
+process_Huffman_data_unit	src/libv4l2/src/tinyjpeg.c	/^static void process_Huffman_data_unit(struct jdec_private *priv, int component)$/;"	f	typeref:typename:void	file:
+processing	src/libv4l2/inc/libv4lconvert-priv.h	/^  struct v4lprocessing_data *processing;$/;"	m	struct:v4lconvert_data	typeref:struct:v4lprocessing_data *
+product_id	src/libv4l2/inc/libv4lcontrol-priv.h	/^  unsigned short product_id;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:unsigned short
+product_mask	src/libv4l2/inc/libv4lcontrol-priv.h	/^  unsigned short product_mask;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:unsigned short
+pts	inc/common.h	/^    int64_t pts;$/;"	m	struct:Packet	typeref:typename:int64_t
+query_xu_control_init	src/v4l2.c	/^int query_xu_control_init(DeviceContex_t *ctx)$/;"	f	typeref:typename:int
+query_xucontrol_query	src/v4l2.c	/^int query_xucontrol_query(DeviceContex_t *ctx, uint8_t query, uint8_t unit, u_int8_t selector, v/;"	f	typeref:typename:int
+read	src/libv4l2/src/v4l2convert.c	/^LIBV4L_PUBLIC ssize_t read (int fd, void* buffer, size_t n)$/;"	f	typeref:typename:LIBV4L_PUBLIC ssize_t
+read_f	src/v4l2.c	/^    ssize_t (*read_f)(int fd, void *buffer, size_t n);$/;"	m	struct:video_data	typeref:typename:ssize_t (*)(int fd,void * buffer,size_t n)	file:
+readbuf	src/libv4l2/inc/libv4l2-priv.h	/^  unsigned char *readbuf;$/;"	m	struct:v4l2_dev_info	typeref:typename:unsigned char *
+readbuf_size	src/libv4l2/inc/libv4l2-priv.h	/^  int readbuf_size;$/;"	m	struct:v4l2_dev_info	typeref:typename:int
+refill	src/libv4l2/src/spca561-decompress.c	/^static inline void refill(int *bitfill)$/;"	f	typeref:typename:void	file:
+reorder_buf	src/alsa.c	/^    void *reorder_buf;$/;"	m	struct:AlsaData	typeref:typename:void *	file:
+reorder_buf_size	src/alsa.c	/^    int reorder_buf_size; \/\/\/< in frames$/;"	m	struct:AlsaData	typeref:typename:int	file:
+reorder_func	src/alsa.c	/^    void (*reorder_func)(const void *, void *, int);$/;"	m	struct:AlsaData	typeref:typename:void (*)(const void *,void *,int)	file:
+reservoir	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int reservoir, nbits_in_reservoir;$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+restart_interval	src/libv4l2/inc/tinyjpeg-internal.h	/^  int restart_interval;$/;"	m	struct:jdec_private	typeref:typename:int
+restarts_to_go	src/libv4l2/inc/tinyjpeg-internal.h	/^  int restarts_to_go;				\/* MCUs left in this restart interval *\/$/;"	m	struct:jdec_private	typeref:typename:int
+resync	src/libv4l2/src/tinyjpeg.c	/^static void resync(struct jdec_private *priv)$/;"	f	typeref:typename:void	file:
+rotate90_buf	src/libv4l2/inc/libv4lconvert-priv.h	/^  unsigned char *rotate90_buf;$/;"	m	struct:v4lconvert_data	typeref:typename:unsigned char *
+rotate90_buf_size	src/libv4l2/inc/libv4lconvert-priv.h	/^  int rotate90_buf_size;$/;"	m	struct:v4lconvert_data	typeref:typename:int
+sample_rate	src/alsa.c	/^    unsigned int sample_rate; \/\/\/< sample rate set by user$/;"	m	struct:AlsaData	typeref:typename:unsigned int	file:
+save_file	src/v4l2.c	/^void save_file(void *buf, uint length,char type)$/;"	f	typeref:typename:void
+shm_values	src/libv4l2/inc/libv4lcontrol-priv.h	/^  unsigned int *shm_values; \/* shared memory control value store *\/$/;"	m	struct:v4lcontrol_data	typeref:typename:unsigned int *
+size	inc/common.h	/^    int      size;$/;"	m	struct:BufferRef	typeref:typename:int
+size	inc/common.h	/^    int size;$/;"	m	struct:Packet	typeref:typename:int
+skip_nbits	src/libv4l2/src/tinyjpeg.c	/^#define skip_nbits(/;"	d	file:
+slowtable	src/libv4l2/inc/tinyjpeg-internal.h	/^  uint16_t slowtable[16-HUFFMAN_HASH_NBITS][256];$/;"	m	struct:huffman_table	typeref:typename:uint16_t[][256]
+sonix_decompress_init	src/libv4l2/src/sn9c10x.c	/^static void sonix_decompress_init(void)$/;"	f	typeref:typename:void	file:
+sonix_unknown	src/libv4l2/src/sn9c10x.c	/^static int sonix_unknown = 0;$/;"	v	typeref:typename:int	file:
+sq905c_first_decompress	src/libv4l2/src/sq905c.c	/^sq905c_first_decompress(unsigned char *output, const unsigned char *input,$/;"	f	typeref:typename:int	file:
+sq905c_second_decompress	src/libv4l2/src/sq905c.c	/^sq905c_second_decompress(unsigned char *uncomp, unsigned char *in,$/;"	f	typeref:typename:int	file:
+src_fmt	src/libv4l2/inc/libv4l2-priv.h	/^  struct v4l2_format src_fmt;$/;"	m	struct:v4l2_dev_info	typeref:struct:v4l2_format
+srcheight	src/libv4l2/src/flip.c	/^#define srcheight /;"	d	file:
+srcwidth	src/libv4l2/src/flip.c	/^#define srcwidth /;"	d	file:
+standard	src/v4l2.c	/^    char *standard;$/;"	m	struct:video_data	typeref:typename:char *	file:
+std_id	src/v4l2.c	/^    v4l2_std_id std_id;$/;"	m	struct:video_data	typeref:typename:v4l2_std_id	file:
+std_markers	src/libv4l2/src/tinyjpeg.c	/^enum std_markers {$/;"	g	file:
+stream	src/libv4l2/inc/tinyjpeg-internal.h	/^  const unsigned char *stream;	\/* Pointer to the current stream *\/$/;"	m	struct:jdec_private	typeref:typename:const unsigned char *
+stream_begin	src/libv4l2/inc/tinyjpeg-internal.h	/^  const unsigned char *stream_begin, *stream_end;$/;"	m	struct:jdec_private	typeref:typename:const unsigned char *
+stream_end	src/libv4l2/inc/tinyjpeg-internal.h	/^  const unsigned char *stream_begin, *stream_end;$/;"	m	struct:jdec_private	typeref:typename:const unsigned char **
+stream_length	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int stream_length;$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+stream_lock	src/libv4l2/inc/libv4l2-priv.h	/^  pthread_mutex_t stream_lock;$/;"	m	struct:v4l2_dev_info	typeref:typename:pthread_mutex_t
+stride	src/libv4l2/src/hm12.c	/^static const int stride = 720;$/;"	v	typeref:typename:const int	file:
+supported_dst_pixfmts	src/libv4l2/src/libv4lconvert.c	/^static const struct v4lconvert_pixfmt supported_dst_pixfmts[] = {$/;"	v	typeref:typename:const struct v4lconvert_pixfmt[]	file:
+supported_src_formats	src/libv4l2/inc/libv4lconvert-priv.h	/^  int supported_src_formats; \/* bitfield *\/$/;"	m	struct:v4lconvert_data	typeref:typename:int
+supported_src_pixfmts	src/libv4l2/src/libv4lconvert.c	/^static const struct v4lconvert_pixfmt supported_src_pixfmts[] = {$/;"	v	typeref:typename:const struct v4lconvert_pixfmt[]	file:
+table	src/libv4l2/src/mr97310a.c	/^} table[256];$/;"	v	typeref:struct:__anon749618960108[256]
+table	src/libv4l2/src/pac207.c	/^} table[256];$/;"	v	typeref:struct:__anon76b6d6df0108[256]
+table	src/libv4l2/src/sn9c10x.c	/^static code_table_t table[256];$/;"	v	typeref:typename:code_table_t[256]	file:
+timestamp	src/alsa.c	/^    int64_t timestamp; \/\/\/< current timestamp, without latency applied.$/;"	m	struct:AlsaData	typeref:typename:int64_t	file:
+tinyjpeg_decode	src/libv4l2/src/tinyjpeg.c	/^int tinyjpeg_decode(struct jdec_private *priv, int pixfmt)$/;"	f	typeref:typename:int
+tinyjpeg_fmt	src/libv4l2/inc/tinyjpeg.h	/^enum tinyjpeg_fmt {$/;"	g
+tinyjpeg_free	src/libv4l2/src/tinyjpeg.c	/^void tinyjpeg_free(struct jdec_private *priv)$/;"	f	typeref:typename:void
+tinyjpeg_get_components	src/libv4l2/src/tinyjpeg.c	/^int tinyjpeg_get_components(struct jdec_private *priv, unsigned char **components)$/;"	f	typeref:typename:int
+tinyjpeg_get_errorstring	src/libv4l2/src/tinyjpeg.c	/^const char *tinyjpeg_get_errorstring(struct jdec_private *priv)$/;"	f	typeref:typename:const char *
+tinyjpeg_get_size	src/libv4l2/src/tinyjpeg.c	/^void tinyjpeg_get_size(struct jdec_private *priv, unsigned int *width, unsigned int *height)$/;"	f	typeref:typename:void
+tinyjpeg_idct_float	src/libv4l2/src/jidctflt.c	/^tinyjpeg_idct_float (struct component *compptr, uint8_t *output_buf, int stride)$/;"	f	typeref:typename:void
+tinyjpeg_init	src/libv4l2/src/tinyjpeg.c	/^struct jdec_private *tinyjpeg_init(void)$/;"	f	typeref:struct:jdec_private *
+tinyjpeg_parse_header	src/libv4l2/src/tinyjpeg.c	/^int tinyjpeg_parse_header(struct jdec_private *priv, const unsigned char *buf, unsigned int size/;"	f	typeref:typename:int
+tinyjpeg_set_components	src/libv4l2/src/tinyjpeg.c	/^int tinyjpeg_set_components(struct jdec_private *priv, unsigned char **components, unsigned int /;"	f	typeref:typename:int
+tinyjpeg_set_flags	src/libv4l2/src/tinyjpeg.c	/^int tinyjpeg_set_flags(struct jdec_private *priv, int flags)$/;"	f	typeref:typename:int
+trace	src/libv4l2/src/tinyjpeg.c	/^#define trace(/;"	d	file:
+unk	src/libv4l2/src/sn9c10x.c	/^	int unk;$/;"	m	struct:__anon7bad1a880108	typeref:typename:int	file:
+url	inc/datatype.h	/^    char url[24];$/;"	m	struct:DeviceContex_s	typeref:typename:char[24]
+use_libv4l2	src/v4l2.c	/^    int use_libv4l2;$/;"	m	struct:video_data	typeref:typename:int	file:
+uvc_enable	src/main.c	/^int uvc_enable = 1;$/;"	v	typeref:typename:int
+uvc_v4l2	src/main.c	/^int uvc_v4l2(char *name)$/;"	f	typeref:typename:int
+v4l2_activate_read_stream	src/libv4l2/src/libv4l2.c	/^static int v4l2_activate_read_stream(int index)$/;"	f	typeref:typename:int	file:
+v4l2_buffers_mapped	src/libv4l2/src/libv4l2.c	/^static int v4l2_buffers_mapped(int index)$/;"	f	typeref:typename:int	file:
+v4l2_check_buffer_change_ok	src/libv4l2/src/libv4l2.c	/^static int v4l2_check_buffer_change_ok(int index)$/;"	f	typeref:typename:int	file:
+v4l2_close	src/libv4l2/src/libv4l2.c	/^int v4l2_close(int fd)$/;"	f	typeref:typename:int
+v4l2_close	src/v4l2.c	/^#define v4l2_close /;"	d	file:
+v4l2_deactivate_read_stream	src/libv4l2/src/libv4l2.c	/^static int v4l2_deactivate_read_stream(int index)$/;"	f	typeref:typename:int	file:
+v4l2_dequeue_and_convert	src/libv4l2/src/libv4l2.c	/^static int v4l2_dequeue_and_convert(int index, struct v4l2_buffer *buf,$/;"	f	typeref:typename:int	file:
+v4l2_dev_deinit	src/v4l2.c	/^void v4l2_dev_deinit(DeviceContex_t *ctx)$/;"	f	typeref:typename:void
+v4l2_dev_info	src/libv4l2/inc/libv4l2-priv.h	/^struct v4l2_dev_info {$/;"	s
+v4l2_dev_init	src/v4l2.c	/^int v4l2_dev_init(DeviceContex_t **ctx, char *path)$/;"	f	typeref:typename:int
+v4l2_dev_set_fmt	src/v4l2.c	/^void v4l2_dev_set_fmt(DeviceContex_t *ctx, int v4l2_fmt, int width, int height)$/;"	f	typeref:typename:void
+v4l2_dup	src/libv4l2/src/libv4l2.c	/^int v4l2_dup(int fd)$/;"	f	typeref:typename:int
+v4l2_dup	src/v4l2.c	/^#define v4l2_dup /;"	d	file:
+v4l2_fd_open	src/libv4l2/src/libv4l2.c	/^int v4l2_fd_open(int fd, int v4l2_flags)$/;"	f	typeref:typename:int
+v4l2_get_control	src/libv4l2/src/libv4l2.c	/^int v4l2_get_control(int fd, int cid)$/;"	f	typeref:typename:int
+v4l2_get_index	src/libv4l2/src/libv4l2.c	/^static int v4l2_get_index(int fd)$/;"	f	typeref:typename:int	file:
+v4l2_ioctl	src/libv4l2/src/libv4l2.c	/^int v4l2_ioctl (int fd, unsigned long int request, ...)$/;"	f	typeref:typename:int
+v4l2_ioctl	src/v4l2.c	/^#define v4l2_ioctl /;"	d	file:
+v4l2_ioctls	src/libv4l2/src/log.c	/^static const char *v4l2_ioctls[] = {$/;"	v	typeref:typename:const char * []	file:
+v4l2_log_file	src/libv4l2/src/log.c	/^FILE *v4l2_log_file = NULL;$/;"	v	typeref:typename:FILE *
+v4l2_log_ioctl	src/libv4l2/src/log.c	/^void v4l2_log_ioctl(unsigned long int request, void *arg, int result)$/;"	f	typeref:typename:void
+v4l2_map_buffers	src/libv4l2/src/libv4l2.c	/^static int v4l2_map_buffers(int index)$/;"	f	typeref:typename:int	file:
+v4l2_mmap	src/libv4l2/src/libv4l2.c	/^void *v4l2_mmap(void *start, size_t length, int prot, int flags, int fd,$/;"	f	typeref:typename:void *
+v4l2_mmap	src/v4l2.c	/^#define v4l2_mmap /;"	d	file:
+v4l2_munmap	src/libv4l2/src/libv4l2.c	/^int v4l2_munmap(void *_start, size_t length)$/;"	f	typeref:typename:int
+v4l2_munmap	src/v4l2.c	/^#define v4l2_munmap /;"	d	file:
+v4l2_needs_conversion	src/libv4l2/src/libv4l2.c	/^static int v4l2_needs_conversion(int index)$/;"	f	typeref:typename:int	file:
+v4l2_open	src/libv4l2/src/libv4l2.c	/^int v4l2_open (const char *file, int oflag, ...)$/;"	f	typeref:typename:int
+v4l2_open	src/v4l2.c	/^#define v4l2_open /;"	d	file:
+v4l2_open_mutex	src/libv4l2/src/libv4l2.c	/^static pthread_mutex_t v4l2_open_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	typeref:typename:pthread_mutex_t	file:
+v4l2_pix_fmt_identical	src/libv4l2/src/libv4l2.c	/^static int v4l2_pix_fmt_identical(struct v4l2_format *a, struct v4l2_format *b)$/;"	f	typeref:typename:int	file:
+v4l2_queue_read_buffer	src/libv4l2/src/libv4l2.c	/^static int v4l2_queue_read_buffer(int index, int buffer_index)$/;"	f	typeref:typename:int	file:
+v4l2_queue_read_buffers	src/libv4l2/src/libv4l2.c	/^static int v4l2_queue_read_buffers(int index)$/;"	f	typeref:typename:int	file:
+v4l2_read	src/libv4l2/src/libv4l2.c	/^ssize_t v4l2_read (int fd, void* dest, size_t n)$/;"	f	typeref:typename:ssize_t
+v4l2_read	src/v4l2.c	/^#define v4l2_read /;"	d	file:
+v4l2_read_and_convert	src/libv4l2/src/libv4l2.c	/^static int v4l2_read_and_convert(int index, unsigned char *dest, int dest_size)$/;"	f	typeref:typename:int	file:
+v4l2_read_close	src/v4l2.c	/^int v4l2_read_close(DeviceContex_t *ctx)$/;"	f	typeref:typename:int
+v4l2_read_header	src/v4l2.c	/^int v4l2_read_header(DeviceContex_t *ctx)$/;"	f	typeref:typename:int
+v4l2_read_packet	src/v4l2.c	/^int v4l2_read_packet(DeviceContex_t *ctx, Packet *pkt)$/;"	f	typeref:typename:int
+v4l2_read_packet_end	src/v4l2.c	/^int v4l2_read_packet_end(DeviceContex_t *ctx, Packet *pkt)$/;"	f	typeref:typename:int
+v4l2_request_read_buffers	src/libv4l2/src/libv4l2.c	/^static int v4l2_request_read_buffers(int index)$/;"	f	typeref:typename:int	file:
+v4l2_set_control	src/libv4l2/src/libv4l2.c	/^int v4l2_set_control(int fd, int cid, int value)$/;"	f	typeref:typename:int
+v4l2_set_parameters	src/v4l2.c	/^static int v4l2_set_parameters(DeviceContex_t *ctx)$/;"	f	typeref:typename:int	file:
+v4l2_set_src_and_dest_format	src/libv4l2/src/libv4l2.c	/^static void v4l2_set_src_and_dest_format(int index,$/;"	f	typeref:typename:void	file:
+v4l2_streamoff	src/libv4l2/src/libv4l2.c	/^static int v4l2_streamoff(int index)$/;"	f	typeref:typename:int	file:
+v4l2_streamon	src/libv4l2/src/libv4l2.c	/^static int v4l2_streamon(int index)$/;"	f	typeref:typename:int	file:
+v4l2_unmap_buffers	src/libv4l2/src/libv4l2.c	/^static void v4l2_unmap_buffers(int index)$/;"	f	typeref:typename:void	file:
+v4l2_unrequest_read_buffers	src/libv4l2/src/libv4l2.c	/^static void v4l2_unrequest_read_buffers(int index)$/;"	f	typeref:typename:void	file:
+v4l2core_get_length_xu_control	src/v4l2.c	/^uint16_t v4l2core_get_length_xu_control(int fd, uint8_t unit, uint8_t selector)$/;"	f	typeref:typename:uint16_t
+v4lcontrol_controls_changed	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_controls_changed(struct v4lcontrol_data *data)$/;"	f	typeref:typename:int
+v4lcontrol_copy_queryctrl	src/libv4l2/src/libv4lcontrol.c	/^static void v4lcontrol_copy_queryctrl(struct v4lcontrol_data *data,$/;"	f	typeref:typename:void	file:
+v4lcontrol_create	src/libv4l2/src/libv4lcontrol.c	/^struct v4lcontrol_data *v4lcontrol_create(int fd, int always_needs_conversion)$/;"	f	typeref:struct:v4lcontrol_data *
+v4lcontrol_data	src/libv4l2/inc/libv4lcontrol-priv.h	/^struct v4lcontrol_data {$/;"	s
+v4lcontrol_destroy	src/libv4l2/src/libv4lcontrol.c	/^void v4lcontrol_destroy(struct v4lcontrol_data *data)$/;"	f	typeref:typename:void
+v4lcontrol_flags	src/libv4l2/src/libv4lcontrol.c	/^static const struct v4lcontrol_flags_info v4lcontrol_flags[] = {$/;"	v	typeref:typename:const struct v4lcontrol_flags_info[]	file:
+v4lcontrol_flags_info	src/libv4l2/inc/libv4lcontrol-priv.h	/^struct v4lcontrol_flags_info {$/;"	s
+v4lcontrol_get_ctrl	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_get_ctrl(struct v4lcontrol_data *data, int ctrl)$/;"	f	typeref:typename:int
+v4lcontrol_get_dmi_string	src/libv4l2/src/libv4lcontrol.c	/^static void v4lcontrol_get_dmi_string(const char *string, char *buf, int size)$/;"	f	typeref:typename:void	file:
+v4lcontrol_get_flags	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_get_flags(struct v4lcontrol_data *data)$/;"	f	typeref:typename:int
+v4lcontrol_init_flags	src/libv4l2/src/libv4lcontrol.c	/^static void v4lcontrol_init_flags(struct v4lcontrol_data *data)$/;"	f	typeref:typename:void	file:
+v4lcontrol_needs_conversion	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_needs_conversion(struct v4lcontrol_data *data) {$/;"	f	typeref:typename:int
+v4lcontrol_vidioc_g_ctrl	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_vidioc_g_ctrl(struct v4lcontrol_data *data, void *arg)$/;"	f	typeref:typename:int
+v4lcontrol_vidioc_queryctrl	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_vidioc_queryctrl(struct v4lcontrol_data *data, void *arg)$/;"	f	typeref:typename:int
+v4lcontrol_vidioc_s_ctrl	src/libv4l2/src/libv4lcontrol.c	/^int v4lcontrol_vidioc_s_ctrl(struct v4lcontrol_data *data, void *arg)$/;"	f	typeref:typename:int
+v4lconvert_add_border_rgbbgr24	src/libv4l2/src/crop.c	/^static void v4lconvert_add_border_rgbbgr24($/;"	f	typeref:typename:void	file:
+v4lconvert_add_border_yuv420	src/libv4l2/src/crop.c	/^static void v4lconvert_add_border_yuv420($/;"	f	typeref:typename:void	file:
+v4lconvert_alloc_buffer	src/libv4l2/src/libv4lconvert.c	/^static unsigned char *v4lconvert_alloc_buffer(struct v4lconvert_data *data,$/;"	f	typeref:typename:unsigned char *	file:
+v4lconvert_bayer_to_bgr24	src/libv4l2/src/bayer.c	/^void v4lconvert_bayer_to_bgr24(const unsigned char *bayer,$/;"	f	typeref:typename:void
+v4lconvert_bayer_to_rgb24	src/libv4l2/src/bayer.c	/^void v4lconvert_bayer_to_rgb24(const unsigned char *bayer,$/;"	f	typeref:typename:void
+v4lconvert_bayer_to_yuv420	src/libv4l2/src/bayer.c	/^void v4lconvert_bayer_to_yuv420(const unsigned char *bayer, unsigned char *yuv,$/;"	f	typeref:typename:void
+v4lconvert_border_bayer_line_to_bgr24	src/libv4l2/src/bayer.c	/^static void v4lconvert_border_bayer_line_to_bgr24($/;"	f	typeref:typename:void	file:
+v4lconvert_border_bayer_line_to_y	src/libv4l2/src/bayer.c	/^static void v4lconvert_border_bayer_line_to_y($/;"	f	typeref:typename:void	file:
+v4lconvert_convert	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_convert(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_convert_pixfmt	src/libv4l2/src/libv4lconvert.c	/^static int v4lconvert_convert_pixfmt(struct v4lconvert_data *data,$/;"	f	typeref:typename:int	file:
+v4lconvert_create	src/libv4l2/src/libv4lconvert.c	/^struct v4lconvert_data *v4lconvert_create(int fd)$/;"	f	typeref:struct:v4lconvert_data *
+v4lconvert_crop	src/libv4l2/src/crop.c	/^void v4lconvert_crop(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_crop_res	src/libv4l2/src/libv4lconvert.c	/^static const int v4lconvert_crop_res[][2] = {$/;"	v	typeref:typename:const int[][2]	file:
+v4lconvert_crop_rgbbgr24	src/libv4l2/src/crop.c	/^static void v4lconvert_crop_rgbbgr24(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_crop_yuv420	src/libv4l2/src/crop.c	/^static void v4lconvert_crop_yuv420(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_data	src/libv4l2/inc/libv4lconvert-priv.h	/^struct v4lconvert_data {$/;"	s
+v4lconvert_decode_mr97310a	src/libv4l2/src/mr97310a.c	/^void v4lconvert_decode_mr97310a(const unsigned char *inp, unsigned char *outp,$/;"	f	typeref:typename:void
+v4lconvert_decode_pac207	src/libv4l2/src/pac207.c	/^int v4lconvert_decode_pac207(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_decode_sn9c10x	src/libv4l2/src/sn9c10x.c	/^void v4lconvert_decode_sn9c10x(const unsigned char *inp, unsigned char *outp,$/;"	f	typeref:typename:void
+v4lconvert_decode_sn9c2028	src/libv4l2/src/sn9c2028-decomp.c	/^void v4lconvert_decode_sn9c2028(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_decode_spca561	src/libv4l2/src/spca561-decompress.c	/^void v4lconvert_decode_spca561(const unsigned char *inbuf,$/;"	f	typeref:typename:void
+v4lconvert_decode_sq905c	src/libv4l2/src/sq905c.c	/^void v4lconvert_decode_sq905c(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_destroy	src/libv4l2/src/libv4lconvert.c	/^void v4lconvert_destroy(struct v4lconvert_data *data)$/;"	f	typeref:typename:void
+v4lconvert_do_try_format	src/libv4l2/src/libv4lconvert.c	/^static int v4lconvert_do_try_format(struct v4lconvert_data *data,$/;"	f	typeref:typename:int	file:
+v4lconvert_do_try_format_uvc	src/libv4l2/src/libv4lconvert.c	/^static int v4lconvert_do_try_format_uvc(struct v4lconvert_data *data,$/;"	f	typeref:typename:int	file:
+v4lconvert_enum_fmt	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_enum_fmt(struct v4lconvert_data *data, struct v4l2_fmtdesc *fmt)$/;"	f	typeref:typename:int
+v4lconvert_enum_frameintervals	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_enum_frameintervals(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_enum_framesizes	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_enum_framesizes(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_fixup_fmt	src/libv4l2/src/libv4lconvert.c	/^void v4lconvert_fixup_fmt(struct v4l2_format *fmt)$/;"	f	typeref:typename:void
+v4lconvert_flip	src/libv4l2/src/flip.c	/^void v4lconvert_flip(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_get_error_message	src/libv4l2/src/libv4lconvert.c	/^const char *v4lconvert_get_error_message(struct v4lconvert_data *data)$/;"	f	typeref:typename:const char *
+v4lconvert_get_framesizes	src/libv4l2/src/libv4lconvert.c	/^static void v4lconvert_get_framesizes(struct v4lconvert_data *data,$/;"	f	typeref:typename:void	file:
+v4lconvert_helper_cleanup	src/libv4l2/src/helper.c	/^void v4lconvert_helper_cleanup(struct v4lconvert_data *data)$/;"	f	typeref:typename:void
+v4lconvert_helper_decompress	src/libv4l2/src/helper.c	/^int v4lconvert_helper_decompress(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_helper_read	src/libv4l2/inc/helper-funcs.h	/^static int v4lconvert_helper_read(int fd, void *b, size_t count,$/;"	f	typeref:typename:int
+v4lconvert_helper_read	src/libv4l2/src/helper.c	/^static int v4lconvert_helper_read(struct v4lconvert_data *data, void *b,$/;"	f	typeref:typename:int	file:
+v4lconvert_helper_start	src/libv4l2/src/helper.c	/^static int v4lconvert_helper_start(struct v4lconvert_data *data,$/;"	f	typeref:typename:int	file:
+v4lconvert_helper_write	src/libv4l2/inc/helper-funcs.h	/^static int v4lconvert_helper_write(int fd, const void *b, size_t count,$/;"	f	typeref:typename:int
+v4lconvert_helper_write	src/libv4l2/src/helper.c	/^static int v4lconvert_helper_write(struct v4lconvert_data *data,$/;"	f	typeref:typename:int	file:
+v4lconvert_hflip_rgbbgr24	src/libv4l2/src/flip.c	/^static void v4lconvert_hflip_rgbbgr24(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_hflip_yuv420	src/libv4l2/src/flip.c	/^static void v4lconvert_hflip_yuv420(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_hm12_to_bgr24	src/libv4l2/src/hm12.c	/^void v4lconvert_hm12_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_hm12_to_rgb	src/libv4l2/src/hm12.c	/^static void v4lconvert_hm12_to_rgb(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_hm12_to_rgb24	src/libv4l2/src/hm12.c	/^void v4lconvert_hm12_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_hm12_to_yuv420	src/libv4l2/src/hm12.c	/^void v4lconvert_hm12_to_yuv420(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_needs_conversion	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_needs_conversion(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_pixfmt	src/libv4l2/inc/libv4lconvert-priv.h	/^struct v4lconvert_pixfmt {$/;"	s
+v4lconvert_processing_needs_double_conversion	src/libv4l2/src/libv4lconvert.c	/^static int v4lconvert_processing_needs_double_conversion($/;"	f	typeref:typename:int	file:
+v4lconvert_reduceandcrop_rgbbgr24	src/libv4l2/src/crop.c	/^static void v4lconvert_reduceandcrop_rgbbgr24($/;"	f	typeref:typename:void	file:
+v4lconvert_reduceandcrop_yuv420	src/libv4l2/src/crop.c	/^static void v4lconvert_reduceandcrop_yuv420($/;"	f	typeref:typename:void	file:
+v4lconvert_rgb24_to_yuv420	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_rgb24_to_yuv420(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_rgb565_to_bgr24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_rgb565_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_rgb565_to_rgb24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_rgb565_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_rgb565_to_yuv420	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_rgb565_to_yuv420(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_rotate180_rgbbgr24	src/libv4l2/src/flip.c	/^static void v4lconvert_rotate180_rgbbgr24(const unsigned char *src,$/;"	f	typeref:typename:void	file:
+v4lconvert_rotate180_yuv420	src/libv4l2/src/flip.c	/^static void v4lconvert_rotate180_yuv420(const unsigned char *src,$/;"	f	typeref:typename:void	file:
+v4lconvert_rotate90	src/libv4l2/src/flip.c	/^void v4lconvert_rotate90(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_rotate90_rgbbgr24	src/libv4l2/src/flip.c	/^static void v4lconvert_rotate90_rgbbgr24(const unsigned char *src,$/;"	f	typeref:typename:void	file:
+v4lconvert_rotate90_yuv420	src/libv4l2/src/flip.c	/^static void v4lconvert_rotate90_yuv420(const unsigned char *src,$/;"	f	typeref:typename:void	file:
+v4lconvert_sn9c20x_to_yuv420	src/libv4l2/src/sn9c20x.c	/^void v4lconvert_sn9c20x_to_yuv420(const unsigned char *raw, unsigned char *i420,$/;"	f	typeref:typename:void
+v4lconvert_spca501_to_yuv420	src/libv4l2/src/spca501.c	/^void v4lconvert_spca501_to_yuv420(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_spca505_to_yuv420	src/libv4l2/src/spca501.c	/^void v4lconvert_spca505_to_yuv420(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_spca508_to_yuv420	src/libv4l2/src/spca501.c	/^void v4lconvert_spca508_to_yuv420(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_supported_dst_fmt_only	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_supported_dst_fmt_only(struct v4lconvert_data *data)$/;"	f	typeref:typename:int
+v4lconvert_supported_dst_format	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_supported_dst_format(unsigned int pixelformat)$/;"	f	typeref:typename:int
+v4lconvert_swap_rgb	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_swap_rgb(const unsigned char *src, unsigned char *dst,$/;"	f	typeref:typename:void
+v4lconvert_swap_uv	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_swap_uv(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_try_format	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_try_format(struct v4lconvert_data *data,$/;"	f	typeref:typename:int
+v4lconvert_uyvy_to_bgr24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_uyvy_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_uyvy_to_rgb24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_uyvy_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_uyvy_to_yuv420	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_uyvy_to_yuv420(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_vflip_rgbbgr24	src/libv4l2/src/flip.c	/^static void v4lconvert_vflip_rgbbgr24(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_vflip_yuv420	src/libv4l2/src/flip.c	/^static void v4lconvert_vflip_yuv420(unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void	file:
+v4lconvert_vidioc_g_ctrl	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_vidioc_g_ctrl(struct v4lconvert_data *data, void *arg) {$/;"	f	typeref:typename:int
+v4lconvert_vidioc_queryctrl	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_vidioc_queryctrl(struct v4lconvert_data *data, void *arg) {$/;"	f	typeref:typename:int
+v4lconvert_vidioc_s_ctrl	src/libv4l2/src/libv4lconvert.c	/^int v4lconvert_vidioc_s_ctrl(struct v4lconvert_data *data, void *arg){$/;"	f	typeref:typename:int
+v4lconvert_yuv420_to_bgr24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yuv420_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yuv420_to_rgb24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yuv420_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yuyv_to_bgr24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yuyv_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yuyv_to_rgb24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yuyv_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yuyv_to_yuv420	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yuyv_to_yuv420(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yvyu_to_bgr24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yvyu_to_bgr24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lconvert_yvyu_to_rgb24	src/libv4l2/src/rgbyuv.c	/^void v4lconvert_yvyu_to_rgb24(const unsigned char *src, unsigned char *dest,$/;"	f	typeref:typename:void
+v4lprocessing_create	src/libv4l2/src/libv4lprocessing.c	/^struct v4lprocessing_data *v4lprocessing_create(int fd, struct v4lcontrol_data* control)$/;"	f	typeref:struct:v4lprocessing_data *
+v4lprocessing_data	src/libv4l2/inc/libv4lprocessing-priv.h	/^struct v4lprocessing_data {$/;"	s
+v4lprocessing_destroy	src/libv4l2/src/libv4lprocessing.c	/^void v4lprocessing_destroy(struct v4lprocessing_data *data)$/;"	f	typeref:typename:void
+v4lprocessing_do_processing	src/libv4l2/src/libv4lprocessing.c	/^static void v4lprocessing_do_processing(struct v4lprocessing_data *data,$/;"	f	typeref:typename:void	file:
+v4lprocessing_filter	src/libv4l2/inc/libv4lprocessing-priv.h	/^struct v4lprocessing_filter {$/;"	s
+v4lprocessing_pre_processing	src/libv4l2/src/libv4lprocessing.c	/^int v4lprocessing_pre_processing(struct v4lprocessing_data *data)$/;"	f	typeref:typename:int
+v4lprocessing_processing	src/libv4l2/src/libv4lprocessing.c	/^void v4lprocessing_processing(struct v4lprocessing_data *data,$/;"	f	typeref:typename:void
+v4lprocessing_update_lookup_tables	src/libv4l2/src/libv4lprocessing.c	/^static void v4lprocessing_update_lookup_tables(struct v4lprocessing_data *data,$/;"	f	typeref:typename:void	file:
+val	src/libv4l2/src/mr97310a.c	/^	signed char val;$/;"	m	struct:__anon749618960108	typeref:typename:signed char	file:
+val	src/libv4l2/src/pac207.c	/^	signed char val;$/;"	m	struct:__anon76b6d6df0108	typeref:typename:signed char	file:
+val	src/libv4l2/src/sn9c10x.c	/^	int val;$/;"	m	struct:__anon7bad1a880108	typeref:typename:int	file:
+val_ac_chrominance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char val_ac_chrominance[] =$/;"	v	typeref:typename:const unsigned char[]	file:
+val_ac_luminance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char val_ac_luminance[] =$/;"	v	typeref:typename:const unsigned char[]	file:
+val_dc_chrominance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char val_dc_chrominance[] =$/;"	v	typeref:typename:const unsigned char[]	file:
+val_dc_luminance	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char val_dc_luminance[] =$/;"	v	typeref:typename:const unsigned char[]	file:
+vendor_id	src/libv4l2/inc/libv4lcontrol-priv.h	/^  unsigned short vendor_id;$/;"	m	struct:v4lcontrol_flags_info	typeref:typename:unsigned short
+video_data	src/v4l2.c	/^struct video_data {$/;"	s	file:
+whitebalance_active	src/libv4l2/src/whitebalance.c	/^static int whitebalance_active(struct v4lprocessing_data *data) {$/;"	f	typeref:typename:int	file:
+whitebalance_calculate_lookup_tables	src/libv4l2/src/whitebalance.c	/^static int whitebalance_calculate_lookup_tables($/;"	f	typeref:typename:int	file:
+whitebalance_calculate_lookup_tables_bayer	src/libv4l2/src/whitebalance.c	/^static int whitebalance_calculate_lookup_tables_bayer($/;"	f	typeref:typename:int	file:
+whitebalance_calculate_lookup_tables_generic	src/libv4l2/src/whitebalance.c	/^static int whitebalance_calculate_lookup_tables_generic($/;"	f	typeref:typename:int	file:
+whitebalance_calculate_lookup_tables_rgb	src/libv4l2/src/whitebalance.c	/^static int whitebalance_calculate_lookup_tables_rgb($/;"	f	typeref:typename:int	file:
+whitebalance_filter	src/libv4l2/src/whitebalance.c	/^struct v4lprocessing_filter whitebalance_filter = {$/;"	v	typeref:struct:v4lprocessing_filter
+width	src/libv4l2/inc/tinyjpeg-internal.h	/^  unsigned int width, height;	\/* Size of the image *\/$/;"	m	struct:jdec_private	typeref:typename:unsigned int
+width	src/v4l2.c	/^    int width, height;$/;"	m	struct:video_data	typeref:typename:int	file:
+xu_mappings	src/v4l2.c	/^static struct uvc_xu_control_mapping xu_mappings[] =$/;"	v	typeref:struct:uvc_xu_control_mapping[]	file:
+zigzag	src/libv4l2/src/tinyjpeg.c	/^static const unsigned char zigzag[64] =$/;"	v	typeref:typename:const unsigned char[64]	file:

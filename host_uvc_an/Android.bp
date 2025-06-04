@@ -1,0 +1,82 @@
+// SigmaStar trade secret
+// Copyright (c) [2019~2020] SigmaStar Technology.
+// All rights reserved.
+//
+// Unless otherwise stipulated in writing, any and all information contained
+// herein regardless in any format shall remain the sole proprietary of
+// SigmaStar and be kept in strict confidence
+// (SigmaStar Confidential Information) by the recipient.
+// Any unauthorized act including without limitation unauthorized disclosure,
+// copying, use, reproduction, sale, distribution, modification, disassembling,
+// reverse engineering and compiling of the contents of SigmaStar Confidential
+// Information is unlawful and strictly prohibited. SigmaStar hereby reserves the
+// rights to any and all damages, losses, costs and expenses resulting therefrom.
+//
+
+cc_binary {
+    name: "uvc_host",
+    vendor: true,
+
+    init_rc: [
+        "hostuvc.rc",
+    ],
+
+    srcs: [
+		"host/src/libv4l2/src/libv4lcontrol.c",
+		"host/src/libv4l2/src/bayer.c",
+		"host/src/libv4l2/src/sq905c.c",
+		"host/src/libv4l2/src/libv4lprocessing.c",
+		"host/src/libv4l2/src/whitebalance.c",
+		"host/src/libv4l2/src/spca501.c",
+		"host/src/libv4l2/src/sn9c20x.c",
+		"host/src/libv4l2/src/crop.c",
+		"host/src/libv4l2/src/jidctflt.c",
+		"host/src/libv4l2/src/mr97310a.c",
+		"host/src/libv4l2/src/log.c",
+		"host/src/libv4l2/src/rgbyuv.c",
+		"host/src/libv4l2/src/autogain.c",
+		"host/src/libv4l2/src/spca561-decompress.c",
+		"host/src/libv4l2/src/tinyjpeg.c",
+		"host/src/libv4l2/src/hm12.c",
+		"host/src/libv4l2/src/sn9c2028-decomp.c",
+		"host/src/libv4l2/src/gamma.c",
+		"host/src/libv4l2/src/libv4l2.c",
+		"host/src/libv4l2/src/pac207.c",
+		"host/src/libv4l2/src/helper.c",
+		"host/src/libv4l2/src/flip.c",
+		"host/src/libv4l2/src/sn9c10x.c",
+		"host/src/libv4l2/src/libv4lconvert.c",
+		"host/src/libv4l2/src/v4l2convert.c",	
+		"host/src/common.c",			
+		"host/src/main.c",
+		"host/src/v4l2.c",
+		"host/src/alsa.c",
+    ],
+
+    include_dirs: [
+        "vendor/sigmastar/common/host_uvc/host/inc",
+        "vendor/sigmastar/common/host_uvc/host/src",
+        "vendor/sigmastar/common/host_uvc/include/libv4l",
+		"vendor/sigmastar/common/host_uvc/include/video",
+		"vendor/sigmastar/common/host_uvc/include/alsa",
+		"vendor/sigmastar/common/host_uvc/host/src/libv4l2/inc",
+		"vendor/sigmastar/common/host_uvc/host/src/libv4l",
+		"vendor/sigmastar/common/host_uvc/host/src/alsa",
+		"vendor/sigmastar/common/host_uvc/host/inc",	
+    ],
+
+    header_libs: [
+        "libgpugfx_headers",
+    ],
+
+    cflags: [
+        "-DLOG_TAG=\"hostuvc\"",
+    ],
+
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libutils",	
+    ],
+}
+
